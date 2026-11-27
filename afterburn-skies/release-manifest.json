@@ -31,7 +31,7 @@
       "Aleksei Feklisov"
     ],
     "dataController": "Vladimir Feklisov",
-    "email": "gfg-games-2026@ya.ru",
+    "email": "gfgupkeep@gmail.com",
     "languages": [
       "en",
       "ru",
@@ -69,11 +69,11 @@
     "cookies": false,
     "scripts": [],
     "hashes": {
-      "privacy.html": "38a54ae2769604d301854343fafb7bccacc9c5d7edfc22a3bccefe6f86639976",
-      "support.html": "57c474e8f657d93a5383423a61636764986c16d4f02240c4b84168961298730b",
+      "privacy.html": "f0c88729c82a327fd3a31d13dd1adc3c87e2c12b353a88de613669048f07aa87",
+      "support.html": "35c8834776f289ecd3ae9a48bc95ada7da8b2c658fc96acda5631526334d5ead",
       "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
       "docs/content.json": "e63c952bf3376f1f643aa795388f7470a4b0abc996981df8e3bd1617a5328875",
-      "docs/product.json": "58475521f7146efff6f11325a49aa1569ed9946a8f7cb9a3bcbb6a187c5ed1b4",
+      "docs/product.json": "f55103fd9b96b1e4a20a84429b5657f9bb6e0b7d976d6fbfe1504c3012570c0d",
       "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
     },
     "buildCommand": "python afterburn-skies/docs/generate.py"
@@ -86,15 +86,26 @@
     "nativeSpeakerReview": "NOT_RUN"
   },
   "publication": {
-    "status": "PUBLISHED_VERIFIED",
-    "date": "2026-11-27T11:20:18.339960+00:00",
-    "contentCommit": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
-    "build": "built",
-    "workflow": "https://github.com/Vladimir761867/app-privacy/actions/runs/45989119216",
-    "https": "200 for both pages and local CSS, exact content SHA-256",
-    "liveLanguageCases": 12,
-    "evidence": "docs/publication-evidence.json"
+    "status": "PENDING_CONTACT_PUBLICATION",
+    "date": "2026-11-27T12:04:42.240660+00:00"
   },
   "nativeTests": "N/A — website-only task; no native PASS claimed",
-  "translationReview": "Author translations, not native-speaker certified"
+  "translationReview": "Author translations, not native-speaker certified",
+  "contactUpdate": {
+    "date": "2026-11-27T12:04:42.240660+00:00",
+    "email": "gfgupkeep@gmail.com",
+    "baseCommit": "ba4397149393f1c51c02cd147b353391425b2f46",
+    "change": "Contact address and mailto targets only; page bytes equal the baseline after exact email replacement.",
+    "priorArtifactHashes": {
+      "privacy.html": "38a54ae2769604d301854343fafb7bccacc9c5d7edfc22a3bccefe6f86639976",
+      "support.html": "57c474e8f657d93a5383423a61636764986c16d4f02240c4b84168961298730b",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "e63c952bf3376f1f643aa795388f7470a4b0abc996981df8e3bd1617a5328875",
+      "docs/product.json": "58475521f7146efff6f11325a49aa1569ed9946a8f7cb9a3bcbb6a187c5ed1b4",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "verification": "STATIC_PASS; live publication pending",
+    "layoutReuse": "CSS, article structure and all translated wording are byte-identical after masking the email. The new email is shorter; prior layout matrix remains historical evidence.",
+    "evidence": "docs/contact-verification.json"
+  }
 }

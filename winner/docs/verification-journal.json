@@ -73,7 +73,26 @@
       "date": "2026-11-27T11:20:18.339960+00:00",
       "commit": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
       "result": "GitHub Pages build and deployment workflow succeeded."
+    },
+    {
+      "id": "CONTACT_REPLACEMENT",
+      "status": "PASS",
+      "date": "2026-11-27T12:04:42.240660+00:00",
+      "result": "Contact and mailto replaced in all six languages. Generated HTML equals exact email substitution of previous published pages.",
+      "evidence": "docs/contact-verification.json"
     }
   ],
-  "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed."
+  "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed.",
+  "contactRevision": {
+    "date": "2026-11-27T12:04:42.240660+00:00",
+    "hashes": {
+      "privacy.html": "bb9875d3ebda2c173a2202b26e5c83a7e954fac945f2575149c207eff1f74f23",
+      "support.html": "cc16439a5f5067facbce30b1fe9495e12bb6ea7a7088672bf2e9af3211c24c4b",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7",
+      "docs/product.json": "9bbc1705148f26e18b7b5a2fb027f312cd12b863b57d3f90438d8f4af3563840",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "baseCommit": "ba4397149393f1c51c02cd147b353391425b2f46"
+  }
 }

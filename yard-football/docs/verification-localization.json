@@ -1345,12 +1345,17 @@
     "IP",
     "ecb.europa.eu",
     "incompetech.com",
-    "gfg-games-2026@ya.ru"
+    "gfgupkeep@gmail.com"
   ],
   "visualSamplesInspected": [
     "monsters-ate-my-rainbow/privacy/hi/320x568",
     "afterburn-skies/support/zh-Hans/390x844",
     "winner/privacy/ru/390x844"
   ],
-  "visualScope": "Sample screenshots inspected, 240 total DOM cases across four games; not a screenshot claim for every case."
+  "visualScope": "Sample screenshots inspected, 240 total DOM cases across four games; not a screenshot claim for every case.",
+  "contactRevisionReuse": {
+    "baseCommit": "ba4397149393f1c51c02cd147b353391425b2f46",
+    "date": "2026-11-27T12:04:42.240660+00:00",
+    "reason": "Only email replaced; original measured hashes in each prior case are retained. No claim that the entire original layout matrix was rerun."
+  }
 }
