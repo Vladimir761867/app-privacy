@@ -1,0 +1,48 @@
+{
+  "product": "Sigh & Smash",
+  "date": "2026-11-27T22:08:55.215503+03:00",
+  "status": "PASS",
+  "scope": "Five public privacy/support URLs, matched to Git bytes; no native or store verification",
+  "rows": [
+    {
+      "url": "https://vladimir761867.github.io/app-privacy/winner.html",
+      "status": "PASS",
+      "http": 200,
+      "brandPresent": true,
+      "sha256": "57a303e830b3e22d8f8e88d5f23cbd16bf952a7876397d04d5e28ca2491b18d7",
+      "expectedSha256": "57a303e830b3e22d8f8e88d5f23cbd16bf952a7876397d04d5e28ca2491b18d7"
+    },
+    {
+      "url": "https://vladimir761867.github.io/app-privacy/winner/privacy.html",
+      "status": "PASS",
+      "http": 200,
+      "brandPresent": true,
+      "sha256": "6fe46484124788f14187eb8880d13d8f4cd7ac8f51c3ce6601a6a847133a9ee7",
+      "expectedSha256": "6fe46484124788f14187eb8880d13d8f4cd7ac8f51c3ce6601a6a847133a9ee7"
+    },
+    {
+      "url": "https://vladimir761867.github.io/app-privacy/winner/support.html",
+      "status": "PASS",
+      "http": 200,
+      "brandPresent": true,
+      "sha256": "52146bef161471610328f4738d6e85b4571072139871089c7bd326665d9b921c",
+      "expectedSha256": "52146bef161471610328f4738d6e85b4571072139871089c7bd326665d9b921c"
+    },
+    {
+      "url": "https://vladimir761867.github.io/app-privacy/store-release-20261127/winner/privacy.html",
+      "status": "PASS",
+      "http": 200,
+      "brandPresent": true,
+      "sha256": "24b05969d21b4da4e9fe32835e4714b9c2f2586361f286d58dde4e1f5753d39e",
+      "expectedSha256": "24b05969d21b4da4e9fe32835e4714b9c2f2586361f286d58dde4e1f5753d39e"
+    },
+    {
+      "url": "https://vladimir761867.github.io/app-privacy/store-release-20261127/winner/support.html",
+      "status": "PASS",
+      "http": 200,
+      "brandPresent": true,
+      "sha256": "0957189e7ee75da929d508f83c42eb12ca7521cde30f48a3c38b645357b74836",
+      "expectedSha256": "0957189e7ee75da929d508f83c42eb12ca7521cde30f48a3c38b645357b74836"
+    }
+  ]
+}

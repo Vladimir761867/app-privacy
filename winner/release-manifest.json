@@ -108,5 +108,11 @@
     "layoutReuse": "CSS, article structure and all translated wording are byte-identical after masking the email. The new email is shorter; prior layout matrix remains historical evidence.",
     "evidence": "docs/contact-verification.json"
   },
-  "brandingEvidence": "winner/docs/rebrand-verification.json"
+  "brandingEvidence": "winner/docs/rebrand-verification.json",
+  "brandingPublication": {
+    "status": "PASS",
+    "publicLegalPagesPassed": 5,
+    "evidence": "winner/docs/rebrand-publication.json",
+    "date": "2026-11-27T22:08:55.215503+03:00"
+  }
 }

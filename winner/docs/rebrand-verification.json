@@ -143,6 +143,7 @@
       "store-release-20261127/winner/support.html": "e914c4bd185009b3f0d129a795d16e97f240970b170d5682863ce723fcda0f18"
     }
   },
-  "publication": "PENDING_PUSH_AND_HTTP_VERIFY",
-  "note": "Prior website journals are historical inputs and not silently converted to PASS for this revision."
+  "publication": "PASS_FOR_PUBLIC_LEGAL_PAGES",
+  "note": "Prior website journals are historical inputs and not silently converted to PASS for this revision.",
+  "publicationEvidence": "winner/docs/rebrand-publication.json"
 }
