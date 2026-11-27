@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-27T06:44:40.178994+00:00",
+  "testVersion": "publication-v1",
+  "artifactHashes": {
+    "privacy.html": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d",
+    "support.html": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b",
+    "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+    "docs/content.json": "a73370843aeb2da9ff4dc28a6f1b77749e06182e5fdd7ca5d516cfc54e3cf156",
+    "docs/generate.py": "6afa6fd6e92e99b8506bc48b529ad42c7061575b74af40743b7365f8218213a4"
+  },
+  "checks": [
+    {
+      "id": "STATIC",
+      "status": "PASS",
+      "command": "python yard-football-publication/record_checks.py",
+      "result": "Six complete HTML translations; no scripts or handlers; CSP default-src none; local-only assets; date, IDs, banned legacy terms and Unicode checked."
+    },
+    {
+      "id": "LEGACY_FILES",
+      "status": "PASS",
+      "baseCommit": "ef456a1b1a5cb1f627fa87156018aae06067c79f",
+      "filesCompared": 8,
+      "result": "Every pre-existing repository file matches its original bytes."
+    },
+    {
+      "id": "RESPONSIVE_LANGUAGES",
+      "status": "PASS",
+      "cases": 60,
+      "evidence": "docs/verification-localization.json"
+    },
+    {
+      "id": "CROSS_PAGE_NAV",
+      "status": "PASS",
+      "languages": [
+        "en",
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi"
+      ],
+      "size": [
+        390,
+        844
+      ],
+      "result": "Clicked privacy and support navigation for each language; correct language retained."
+    },
+    {
+      "id": "DEFAULT_ENGLISH",
+      "status": "PASS",
+      "result": "No fragment and unknown fragment show only the complete English article."
+    },
+    {
+      "id": "NO_JAVASCRIPT",
+      "status": "PASS",
+      "result": "Both pages contain zero scripts or event handlers; all language switching observed using CSS anchors; CSP disallows scripts. Browser-wide JS setting was not changed."
+    },
+    {
+      "id": "PAGES_SETTINGS",
+      "status": "PASS",
+      "result": "Authenticated account Vladimir761867; existing public Pages source main /; HTTPS enforced."
+    },
+    {
+      "id": "PUBLIC_HTTPS",
+      "status": "NOT_RUN",
+      "result": "Pending commit and publication."
+    },
+    {
+      "id": "PUBLIC_LANGUAGES",
+      "status": "NOT_RUN",
+      "result": "Pending publication."
+    },
+    {
+      "id": "NATIVE_SPEAKER_REVIEW",
+      "status": "NOT_RUN",
+      "result": "Author translations; no native-speaker certification claimed."
+    }
+  ],
+  "unchangedComponents": "Game runtime, storage, payments and native binaries were not modified or retested; facts are supplied by the user. No browser PASS is reused as an iOS result."
+}

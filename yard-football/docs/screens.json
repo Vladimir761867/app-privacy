@@ -1,0 +1,40 @@
+{
+  "screens": [
+    {
+      "id": "privacy",
+      "path": "privacy.html",
+      "states": [
+        "default-English",
+        "selected-language",
+        "cross-page-navigation"
+      ],
+      "languages": [
+        "en",
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi"
+      ],
+      "status": "LOCAL_PASS"
+    },
+    {
+      "id": "support",
+      "path": "support.html",
+      "states": [
+        "default-English",
+        "selected-language",
+        "cross-page-navigation"
+      ],
+      "languages": [
+        "en",
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi"
+      ],
+      "status": "LOCAL_PASS"
+    }
+  ]
+}

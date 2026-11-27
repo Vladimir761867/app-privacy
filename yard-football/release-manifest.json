@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "product": "Yard Football privacy and support website",
+  "date": "2026-11-27T06:44:40.178994+00:00",
+  "effectiveDate": "2026-11-27",
+  "scope": "Public static documents only; no game binary changes or native certification",
+  "developer": "Aleksei Feklisov",
+  "contact": "gfg-games-2026@ya.ru",
+  "bundleIdIOS": "feklisoff.YardFootball",
+  "packageAndroid": "feklisoff.yardfootball",
+  "audience": "Family game, all ages; not Kids Category",
+  "source": {
+    "repository": "https://github.com/Vladimir761867/app-privacy",
+    "branch": "main",
+    "baselineCommit": "ef456a1b1a5cb1f627fa87156018aae06067c79f",
+    "sourceHashes": {
+      "privacy.html": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d",
+      "support.html": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "a73370843aeb2da9ff4dc28a6f1b77749e06182e5fdd7ca5d516cfc54e3cf156",
+      "docs/generate.py": "6afa6fd6e92e99b8506bc48b529ad42c7061575b74af40743b7365f8218213a4"
+    },
+    "singleContentSource": "docs/content.json",
+    "buildCommand": "python yard-football/docs/generate.py",
+    "referenceRepository": "https://github.com/Vladimir761867/football-cage",
+    "referenceCommit": "d740f31e339dc5abe2e8cb1130b9d51b6869f17f",
+    "referenceFiles": [
+      "privacy.html",
+      "js/privacy.js",
+      "css/privacy.css",
+      "docs/store/privacy-localizations.json"
+    ],
+    "selection": "Fetched current remote branches before writing. Current football-cage main selected; appstore/prepare-ios is older (55d73a9). Existing dirty football-cage worktree preserved."
+  },
+  "languages": [
+    "en",
+    "ru",
+    "es",
+    "pt-BR",
+    "zh-Hans",
+    "hi"
+  ],
+  "defaultLanguage": "en",
+  "languageSelection": "HTML fragment anchors and CSS :target; works without JavaScript, no browser-language detection or persistent storage",
+  "devices": "Responsive web pages, portrait and landscape",
+  "websiteStorage": "none",
+  "websiteDependencies": [
+    "local style.css",
+    "system fonts"
+  ],
+  "websiteScripts": [],
+  "websiteNetwork": "Only same-origin static document and stylesheet requests; contact is a user-initiated mailto link",
+  "gameStorage": "Progress/settings/language/results on device; deletion with app; reset in game settings (user-supplied facts)",
+  "gamePurchases": "Optional one-time cosmetic court packs and Court Collection via Apple StoreKit; restore in settings",
+  "gameServices": [
+    "Apple StoreKit (iOS)",
+    "ECB public XML rates for INR/USD reference (iOS)",
+    "Optional separate online room server (web only)",
+    "incompetech.com music after player action (web only)"
+  ],
+  "hosting": {
+    "provider": "GitHub Pages",
+    "sourceBranch": "main",
+    "sourcePath": "/",
+    "httpsEnforced": true,
+    "privacyURL": "https://vladimir761867.github.io/app-privacy/yard-football/privacy.html",
+    "supportURL": "https://vladimir761867.github.io/app-privacy/yard-football/support.html"
+  },
+  "checks": {
+    "localBrowserCases": 60,
+    "matrix": "docs/verification-localization.json",
+    "journal": "docs/verification-journal.json",
+    "existingFilesPreserved": true,
+    "nativeIOS": "N/A — website publication only",
+    "appStoreSubmission": "N/A — website publication only"
+  },
+  "publication": "PENDING_PUSH"
+}
