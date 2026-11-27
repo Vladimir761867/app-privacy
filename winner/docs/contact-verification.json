@@ -12,6 +12,61 @@
     "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
   },
   "staticStatus": "PASS",
-  "publicStatus": "PENDING",
-  "scope": "Contact text and mailto links; no gameplay/native change or retest."
+  "publicStatus": "PASS",
+  "scope": "Contact text and mailto links; no gameplay/native change or retest.",
+  "verifiedAt": "2026-11-27T12:10:07.966629+00:00",
+  "contentCommit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+  "pagesBuild": {
+    "status": "built",
+    "commit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+    "error": {
+      "message": null
+    },
+    "created_at": "2026-11-27T12:07:57Z",
+    "updated_at": "2026-11-27T12:08:29Z"
+  },
+  "allPublishedHtmlPages": 14,
+  "pages": [
+    {
+      "path": "winner/privacy.html",
+      "url": "https://vladimir761867.github.io/app-privacy/winner/privacy.html",
+      "status": 200,
+      "https": true,
+      "newEmailPresent": true,
+      "oldEmailRemaining": false,
+      "mailtoLinks": 6,
+      "allMailtoCorrect": true,
+      "languages": [
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi",
+        "en"
+      ],
+      "matchesSource": true,
+      "sha256": "bb9875d3ebda2c173a2202b26e5c83a7e954fac945f2575149c207eff1f74f23"
+    },
+    {
+      "path": "winner/support.html",
+      "url": "https://vladimir761867.github.io/app-privacy/winner/support.html",
+      "status": 200,
+      "https": true,
+      "newEmailPresent": true,
+      "oldEmailRemaining": false,
+      "mailtoLinks": 6,
+      "allMailtoCorrect": true,
+      "languages": [
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi",
+        "en"
+      ],
+      "matchesSource": true,
+      "sha256": "cc16439a5f5067facbce30b1fe9495e12bb6ea7a7088672bf2e9af3211c24c4b"
+    }
+  ],
+  "languageVerification": "All six complete HTML translations contain the new visible email and matching mailto. Existing CSS interaction and layout checks reused only with explicit byte-substitution proof; no full browser matrix rerun claimed."
 }

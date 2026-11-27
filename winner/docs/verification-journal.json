@@ -80,6 +80,14 @@
       "date": "2026-11-27T12:04:42.240660+00:00",
       "result": "Contact and mailto replaced in all six languages. Generated HTML equals exact email substitution of previous published pages.",
       "evidence": "docs/contact-verification.json"
+    },
+    {
+      "id": "CONTACT_PUBLIC_HTTPS",
+      "status": "PASS",
+      "date": "2026-11-27T12:10:07.966629+00:00",
+      "contentCommit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+      "result": "New visible email and every mailto verified on both public pages, all six HTML translations; HTTPS 200 and exact source content.",
+      "evidence": "docs/contact-verification.json"
     }
   ],
   "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed.",

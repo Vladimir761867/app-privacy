@@ -83,8 +83,13 @@
     "nativeSpeakerReview": "NOT_RUN"
   },
   "publication": {
-    "status": "PENDING_CONTACT_PUBLICATION",
-    "date": "2026-11-27T12:04:42.240660+00:00"
+    "status": "PUBLISHED_VERIFIED",
+    "date": "2026-11-27T12:13:01.539044+00:00",
+    "contentCommit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+    "email": "gfgupkeep@gmail.com",
+    "build": "built",
+    "workflow": "https://github.com/Vladimir761867/app-privacy/actions/runs/45996083879",
+    "evidence": "docs/contact-verification.json"
   },
   "nativeTests": "N/A — website-only task; no native PASS claimed",
   "translationReview": "Author translations, not native-speaker certified",
@@ -101,7 +106,7 @@
       "docs/product.json": "05c99a8a5a90f2625d489fc30c8bb146a9a49e3b0b7f535d50282e60c0c993f4",
       "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
     },
-    "verification": "STATIC_PASS; live publication pending",
+    "verification": "PASS — all 14 published HTML documents returned HTTPS 200, new visible address and matching mailto links; no previous address remained.",
     "layoutReuse": "CSS, article structure and all translated wording are byte-identical after masking the email. The new email is shorter; prior layout matrix remains historical evidence.",
     "evidence": "docs/contact-verification.json"
   }

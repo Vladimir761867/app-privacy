@@ -12,6 +12,61 @@
     "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
   },
   "staticStatus": "PASS",
-  "publicStatus": "PENDING",
-  "scope": "Contact text and mailto links; no gameplay/native change or retest."
+  "publicStatus": "PASS",
+  "scope": "Contact text and mailto links; no gameplay/native change or retest.",
+  "verifiedAt": "2026-11-27T12:10:07.966629+00:00",
+  "contentCommit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+  "pagesBuild": {
+    "status": "built",
+    "commit": "f8119ec570b8b8a5338a20d850a14d4bd24fea32",
+    "error": {
+      "message": null
+    },
+    "created_at": "2026-11-27T12:07:57Z",
+    "updated_at": "2026-11-27T12:08:29Z"
+  },
+  "allPublishedHtmlPages": 14,
+  "pages": [
+    {
+      "path": "monsters-ate-my-rainbow/privacy.html",
+      "url": "https://vladimir761867.github.io/app-privacy/monsters-ate-my-rainbow/privacy.html",
+      "status": 200,
+      "https": true,
+      "newEmailPresent": true,
+      "oldEmailRemaining": false,
+      "mailtoLinks": 6,
+      "allMailtoCorrect": true,
+      "languages": [
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi",
+        "en"
+      ],
+      "matchesSource": true,
+      "sha256": "2242065ded502df9ab5112ec0ba5eb1606345e52f2d486e3d1b53d8ce6cf8a48"
+    },
+    {
+      "path": "monsters-ate-my-rainbow/support.html",
+      "url": "https://vladimir761867.github.io/app-privacy/monsters-ate-my-rainbow/support.html",
+      "status": 200,
+      "https": true,
+      "newEmailPresent": true,
+      "oldEmailRemaining": false,
+      "mailtoLinks": 6,
+      "allMailtoCorrect": true,
+      "languages": [
+        "ru",
+        "es",
+        "pt-BR",
+        "zh-Hans",
+        "hi",
+        "en"
+      ],
+      "matchesSource": true,
+      "sha256": "5ec2e655ff3f6d489e91fff754d5245526f2c602ace72b665100286e265331d4"
+    }
+  ],
+  "languageVerification": "All six complete HTML translations contain the new visible email and matching mailto. Existing CSS interaction and layout checks reused only with explicit byte-substitution proof; no full browser matrix rerun claimed."
 }
