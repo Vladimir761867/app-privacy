@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "date": "2026-11-27T07:03:17.792600+00:00",
+  "date": "2026-11-27T21:59:45.721671+03:00",
   "product": {
-    "name": "Winner",
+    "name": "Sigh & Smash",
     "bundleId": "ru.pobeditel.game",
-    "gameVersion": "1.0.3 / 4",
+    "gameVersion": "1.0.6 / 7",
     "sourceRepository": "https://github.com/Vladimir761867/winner-app",
-    "sourceCommit": "7acb5211cbb4ee62482bec7b928422537fcf1452",
+    "sourceCommit": "c3eb161b8f2c92dc2f0af3589cd901f3c528b1df",
     "sourceDirectory": "winner-app-pages",
     "sourceFiles": [
       "privacy.html",
@@ -39,14 +39,18 @@
     ],
     "effectiveDate": "2026-11-27",
     "sourceHashes": {
-      "privacy.html": "a40d5722c3d0ed0d916e8a3b8aee601332a48217a28cc70910e1fb14a292b0e0",
-      "capacitor/pobeditel/capacitor.config.json": "81b17b1eac371d9c3c1766296106ab85288a035a9de7fccccf80756ec313845a",
-      "capacitor/pobeditel/release-manifest.json": "cf2ba761f8ce6360a2732addbafb7b2c1cbb1934413ff0598b940c8a88ccdda9",
-      "capacitor/pobeditel/www/gfg-settings.js": "fc72b6b5fae8570bc8eaa3a533ba0144dd6347b27e29749a83c83435258347a4",
-      "docs/appstore/IAP_PRODUCTS.md": "4f79dcb845eab998def6529cd979d4c8f78f63ea2552d498e46264825bb71011"
-    }
+      "privacy.html": "b4b80adbc159c3ec8094f1f9d9a9cc80586c4e0d7fde219bc94a30585b8a16da",
+      "capacitor/pobeditel/capacitor.config.json": "496cfe95f6349f8d2147246c280d30c6ba27749684a653a0128b078f85962787",
+      "capacitor/pobeditel/release-manifest.json": "eb89acdb0b6bd3f13eaabf5737bada922175a6912d68aec7948497778201a1ad",
+      "capacitor/pobeditel/www/gfg-settings.js": "4b4ffa602e2b8196d12174aec7146859612fd377a01665215086f06230ac554b",
+      "docs/appstore/IAP_PRODUCTS.md": "5989d6e730d88c70c3facc18455d70eb7a4c17cbe688e296f886137e2aa990e1"
+    },
+    "previousNames": [
+      "Победитель",
+      "Winner"
+    ]
   },
-  "scope": "Static website only; no game binaries modified or certified",
+  "scope": "Brand rename in static public pages; legal practices and native game release not re-certified",
   "website": {
     "repository": "https://github.com/Vladimir761867/app-privacy",
     "baselineCommit": "74adc0074c5d7fa25caee686d6f61178878ddc1e",
@@ -63,12 +67,9 @@
     "cookies": false,
     "scripts": [],
     "hashes": {
-      "privacy.html": "bb9875d3ebda2c173a2202b26e5c83a7e954fac945f2575149c207eff1f74f23",
-      "support.html": "cc16439a5f5067facbce30b1fe9495e12bb6ea7a7088672bf2e9af3211c24c4b",
-      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
-      "docs/content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7",
-      "docs/product.json": "9bbc1705148f26e18b7b5a2fb027f312cd12b863b57d3f90438d8f4af3563840",
-      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+      "privacy.html": "6fe46484124788f14187eb8880d13d8f4cd7ac8f51c3ce6601a6a847133a9ee7",
+      "support.html": "52146bef161471610328f4738d6e85b4571072139871089c7bd326665d9b921c",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174"
     },
     "buildCommand": "python winner/docs/generate.py"
   },
@@ -106,5 +107,6 @@
     "verification": "PASS — all 14 published HTML documents returned HTTPS 200, new visible address and matching mailto links; no previous address remained.",
     "layoutReuse": "CSS, article structure and all translated wording are byte-identical after masking the email. The new email is shorter; prior layout matrix remains historical evidence.",
     "evidence": "docs/contact-verification.json"
-  }
+  },
+  "brandingEvidence": "winner/docs/rebrand-verification.json"
 }

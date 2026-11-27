@@ -1,9 +1,9 @@
 {
-  "name": "Winner",
+  "name": "Sigh & Smash",
   "bundleId": "ru.pobeditel.game",
-  "gameVersion": "1.0.3 / 4",
+  "gameVersion": "1.0.6 / 7",
   "sourceRepository": "https://github.com/Vladimir761867/winner-app",
-  "sourceCommit": "7acb5211cbb4ee62482bec7b928422537fcf1452",
+  "sourceCommit": "c3eb161b8f2c92dc2f0af3589cd901f3c528b1df",
   "sourceDirectory": "winner-app-pages",
   "sourceFiles": [
     "privacy.html",
@@ -36,10 +36,14 @@
   ],
   "effectiveDate": "2026-11-27",
   "sourceHashes": {
-    "privacy.html": "a40d5722c3d0ed0d916e8a3b8aee601332a48217a28cc70910e1fb14a292b0e0",
-    "capacitor/pobeditel/capacitor.config.json": "81b17b1eac371d9c3c1766296106ab85288a035a9de7fccccf80756ec313845a",
-    "capacitor/pobeditel/release-manifest.json": "cf2ba761f8ce6360a2732addbafb7b2c1cbb1934413ff0598b940c8a88ccdda9",
-    "capacitor/pobeditel/www/gfg-settings.js": "fc72b6b5fae8570bc8eaa3a533ba0144dd6347b27e29749a83c83435258347a4",
-    "docs/appstore/IAP_PRODUCTS.md": "4f79dcb845eab998def6529cd979d4c8f78f63ea2552d498e46264825bb71011"
-  }
+    "privacy.html": "b4b80adbc159c3ec8094f1f9d9a9cc80586c4e0d7fde219bc94a30585b8a16da",
+    "capacitor/pobeditel/capacitor.config.json": "496cfe95f6349f8d2147246c280d30c6ba27749684a653a0128b078f85962787",
+    "capacitor/pobeditel/release-manifest.json": "eb89acdb0b6bd3f13eaabf5737bada922175a6912d68aec7948497778201a1ad",
+    "capacitor/pobeditel/www/gfg-settings.js": "4b4ffa602e2b8196d12174aec7146859612fd377a01665215086f06230ac554b",
+    "docs/appstore/IAP_PRODUCTS.md": "5989d6e730d88c70c3facc18455d70eb7a4c17cbe688e296f886137e2aa990e1"
+  },
+  "previousNames": [
+    "Победитель",
+    "Winner"
+  ]
 }

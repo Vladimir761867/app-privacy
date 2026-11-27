@@ -1,4 +1,4 @@
-# Winner privacy and support
+# Sigh & Smash privacy and support
 
 Developers: Vladimir Feklisov and Aleksei Feklisov. Data controller: Vladimir Feklisov. Contact: gfgupkeep@gmail.com. Effective date: November 27, 2026.
 
