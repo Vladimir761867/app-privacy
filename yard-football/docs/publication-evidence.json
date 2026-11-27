@@ -1,13 +1,174 @@
 {
-  "date": "2026-11-27T07:03:17.792600+00:00",
-  "status": "PENDING",
-  "reason": "New developer/controller attribution and current content require fresh browser and publication checks. Earlier Yard results retained in Git and local backup.",
-  "hashes": {
-    "privacy.html": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
-    "support.html": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
-    "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
-    "docs/content.json": "018d5919db6293c3e5a50d2c12dd4149dd84c398c571b1b2eab237a0f982996a",
-    "docs/product.json": "c840d61ed18cb835fe4056fbd28242ea1eac43c4eba72c02e81d7e96fbaf486e",
-    "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+  "date": "2026-11-27T11:20:18.339960+00:00",
+  "pages": {
+    "date": "2026-11-27T11:20:08.612087+00:00",
+    "head": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
+    "pages": {
+      "status": "built",
+      "source": {
+        "branch": "main",
+        "path": "/"
+      },
+      "html_url": "https://vladimir761867.github.io/app-privacy/",
+      "https_enforced": true
+    },
+    "build": {
+      "status": "built",
+      "commit": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
+      "error": {
+        "message": null
+      },
+      "created_at": "2026-11-27T11:16:32Z",
+      "updated_at": "2026-11-27T11:17:18Z"
+    },
+    "run": {
+      "id": 45989119216,
+      "head_sha": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Vladimir761867/app-privacy/actions/runs/45989119216"
+    }
+  },
+  "https": {
+    "date": "2026-11-27T11:17:29.398824+00:00",
+    "results": [
+      {
+        "slug": "yard-football",
+        "file": "privacy.html",
+        "url": "https://vladimir761867.github.io/app-privacy/yard-football/privacy.html",
+        "status": 200,
+        "https": true,
+        "matchesLocal": true,
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "scripts": 0,
+        "setCookie": false
+      },
+      {
+        "slug": "yard-football",
+        "file": "support.html",
+        "url": "https://vladimir761867.github.io/app-privacy/yard-football/support.html",
+        "status": 200,
+        "https": true,
+        "matchesLocal": true,
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "scripts": 0,
+        "setCookie": false
+      },
+      {
+        "slug": "yard-football",
+        "file": "style.css",
+        "url": "https://vladimir761867.github.io/app-privacy/yard-football/style.css",
+        "status": 200,
+        "https": true,
+        "matchesLocal": true,
+        "sha256": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "scripts": 0,
+        "setCookie": false
+      }
+    ]
+  },
+  "liveBrowser": {
+    "testVersion": "CUA-PORTFOLIO-LIVE-v1",
+    "environment": "ChatGPT in-app browser; desktop viewport",
+    "date": "2026-11-27T11:20:18.339960+00:00",
+    "cases": [
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "en",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "ru",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "es",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "pt-BR",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "zh-Hans",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "hi",
+        "status": "PASS",
+        "sha256": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "en",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "ru",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "es",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "pt-BR",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "zh-Hans",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "hi",
+        "status": "PASS",
+        "sha256": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+        "result": "Clicked language link on live HTTPS page; sole visible article matches selected language; no scripts, overflow or small links; both developers displayed."
+      }
+    ],
+    "evidence": "Codex CUA transcript for live GitHub Pages verification"
   }
 }

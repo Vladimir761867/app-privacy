@@ -54,13 +54,25 @@
     },
     {
       "id": "PUBLIC_HTTPS",
-      "status": "NOT_RUN",
-      "result": "Pending publication."
+      "status": "PASS",
+      "result": "Both document URLs and CSS return HTTPS 200, exact local SHA-256, no scripts or Set-Cookie header.",
+      "date": "2026-11-27T11:17:29.398824+00:00",
+      "evidence": "docs/publication-evidence.json"
     },
     {
       "id": "PUBLIC_LANGUAGES",
-      "status": "NOT_RUN",
-      "result": "Pending publication."
+      "status": "PASS",
+      "result": "Clicked all six languages on both live HTTPS pages; matching article and developer attribution; no scripts or overflow.",
+      "date": "2026-11-27T11:20:18.339960+00:00",
+      "cases": 12,
+      "evidence": "docs/publication-evidence.json"
+    },
+    {
+      "id": "PAGES_DEPLOY",
+      "status": "PASS",
+      "date": "2026-11-27T11:20:18.339960+00:00",
+      "commit": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
+      "result": "GitHub Pages build and deployment workflow succeeded."
     }
   ],
   "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed."

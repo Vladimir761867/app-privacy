@@ -85,7 +85,16 @@
     "matrix": "docs/verification-localization.json",
     "nativeSpeakerReview": "NOT_RUN"
   },
-  "publication": "PENDING",
+  "publication": {
+    "status": "PUBLISHED_VERIFIED",
+    "date": "2026-11-27T11:20:18.339960+00:00",
+    "contentCommit": "6d9b8f29ad1982e639ca89dbfa2c44edf15db32b",
+    "build": "built",
+    "workflow": "https://github.com/Vladimir761867/app-privacy/actions/runs/45989119216",
+    "https": "200 for both pages and local CSS, exact content SHA-256",
+    "liveLanguageCases": 12,
+    "evidence": "docs/publication-evidence.json"
+  },
   "nativeTests": "N/A — website-only task; no native PASS claimed",
   "translationReview": "Author translations, not native-speaker certified"
 }

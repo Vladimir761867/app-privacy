@@ -16,7 +16,7 @@
         "selected-language",
         "cross-page-navigation"
       ],
-      "status": "LOCAL_PASS"
+      "status": "PUBLISHED_VERIFIED"
     },
     {
       "id": "support",
@@ -34,7 +34,7 @@
         "selected-language",
         "cross-page-navigation"
       ],
-      "status": "LOCAL_PASS"
+      "status": "PUBLISHED_VERIFIED"
     }
   ]
 }
