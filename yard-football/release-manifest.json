@@ -74,5 +74,13 @@
     "nativeIOS": "N/A — website publication only",
     "appStoreSubmission": "N/A — website publication only"
   },
-  "publication": "PENDING_PUSH"
+  "publication": {
+    "status": "PUBLISHED_VERIFIED",
+    "contentCommit": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
+    "verifiedAt": "2026-11-27T06:46:39.843246+00:00",
+    "pagesBuild": "built",
+    "https": "Both document URLs and CSS return 200 and exactly match local SHA-256",
+    "liveLanguageCases": 12,
+    "evidence": "docs/publication-evidence.json"
+  }
 }

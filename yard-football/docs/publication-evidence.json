@@ -1,0 +1,200 @@
+{
+  "github": {
+    "date": "2026-11-27T06:46:07.458830+00:00",
+    "account": {
+      "status": 200,
+      "data": {
+        "login": "Vladimir761867",
+        "html_url": "https://github.com/Vladimir761867"
+      }
+    },
+    "pages": {
+      "status": 200,
+      "data": {
+        "url": "https://api.github.com/repos/Vladimir761867/app-privacy/pages",
+        "status": "built",
+        "cname": null,
+        "custom_404": false,
+        "html_url": "https://vladimir761867.github.io/app-privacy/",
+        "build_type": "legacy",
+        "source": {
+          "branch": "main",
+          "path": "/"
+        },
+        "public": true,
+        "protected_domain_state": null,
+        "pending_domain_unverified_at": null,
+        "https_enforced": true
+      }
+    },
+    "build": {
+      "status": 200,
+      "data": {
+        "status": "built",
+        "error": {
+          "message": null
+        },
+        "commit": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
+        "created_at": "2026-11-27T06:45:02Z",
+        "updated_at": "2026-11-27T06:45:37Z"
+      }
+    },
+    "runs": {
+      "status": 200,
+      "data": [
+        {
+          "id": 45953856619,
+          "head_sha": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/Vladimir761867/app-privacy/actions/runs/45953856619"
+        },
+        {
+          "id": 44942036568,
+          "head_sha": "ef456a1b1a5cb1f627fa87156018aae06067c79f",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/Vladimir761867/app-privacy/actions/runs/44942036568"
+        },
+        {
+          "id": 44941664520,
+          "head_sha": "7664e9f96c5f8310ad24323c6441776ea9bdae2a",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/Vladimir761867/app-privacy/actions/runs/44941664520"
+        }
+      ]
+    }
+  },
+  "https": {
+    "date": "2026-11-27T06:45:36.239785+00:00",
+    "privacy.html": {
+      "url": "https://vladimir761867.github.io/app-privacy/yard-football/privacy.html",
+      "status": 200,
+      "https": true,
+      "sha256": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "support.html": {
+      "url": "https://vladimir761867.github.io/app-privacy/yard-football/support.html",
+      "status": 200,
+      "https": true,
+      "sha256": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "style.css": {
+      "url": "https://vladimir761867.github.io/app-privacy/yard-football/style.css",
+      "status": 200,
+      "https": true,
+      "sha256": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "matchesLocal": true,
+      "contentType": "text/css; charset=utf-8"
+    }
+  },
+  "liveBrowser": {
+    "date": "2026-11-27T06:46:39.843246+00:00",
+    "environment": "ChatGPT in-app browser; desktop viewport",
+    "testVersion": "CUA-LIVE-v1",
+    "cases": [
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "en",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "ru",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "es",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "pt-BR",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "zh-Hans",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "privacy",
+        "state": "selected-language",
+        "language": "hi",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "en",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "ru",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "es",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "pt-BR",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "zh-Hans",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      },
+      {
+        "screenId": "support",
+        "state": "selected-language",
+        "language": "hi",
+        "status": "PASS",
+        "result": "Expected lang matches sole visible article; scripts=0; no horizontal overflow",
+        "artifactHash": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b"
+      }
+    ],
+    "evidence": "Codex CUA browser verification transcript dated 2026-11-27"
+  }
+}

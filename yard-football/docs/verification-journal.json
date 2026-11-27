@@ -62,18 +62,31 @@
     },
     {
       "id": "PUBLIC_HTTPS",
-      "status": "NOT_RUN",
-      "result": "Pending commit and publication."
+      "status": "PASS",
+      "result": "Both document URLs and CSS returned HTTPS 200 and exact source hashes.",
+      "date": "2026-11-27T06:45:36.239785+00:00",
+      "evidence": "docs/publication-evidence.json"
     },
     {
       "id": "PUBLIC_LANGUAGES",
-      "status": "NOT_RUN",
-      "result": "Pending publication."
+      "status": "PASS",
+      "result": "Clicked all six language links on each live HTTPS document in CUA; exactly one corresponding article visible; no scripts or horizontal overflow.",
+      "date": "2026-11-27T06:46:39.843246+00:00",
+      "cases": 12,
+      "evidence": "docs/publication-evidence.json"
     },
     {
       "id": "NATIVE_SPEAKER_REVIEW",
       "status": "NOT_RUN",
       "result": "Author translations; no native-speaker certification claimed."
+    },
+    {
+      "id": "PAGES_DEPLOY",
+      "status": "PASS",
+      "date": "2026-11-27T06:46:07.458830+00:00",
+      "contentCommit": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
+      "result": "GitHub Pages built; deployment workflow success; public main / root; HTTPS enforced.",
+      "evidence": "docs/publication-evidence.json"
     }
   ],
   "unchangedComponents": "Game runtime, storage, payments and native binaries were not modified or retested; facts are supplied by the user. No browser PASS is reused as an iOS result."
