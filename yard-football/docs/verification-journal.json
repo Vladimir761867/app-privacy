@@ -1,26 +1,30 @@
 {
-  "date": "2026-11-27T06:44:40.178994+00:00",
-  "testVersion": "publication-v1",
+  "date": "2026-11-27T11:16:02.266981+00:00",
   "artifactHashes": {
-    "privacy.html": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d",
-    "support.html": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b",
+    "privacy.html": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+    "support.html": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
     "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
-    "docs/content.json": "a73370843aeb2da9ff4dc28a6f1b77749e06182e5fdd7ca5d516cfc54e3cf156",
-    "docs/generate.py": "6afa6fd6e92e99b8506bc48b529ad42c7061575b74af40743b7365f8218213a4"
+    "docs/content.json": "018d5919db6293c3e5a50d2c12dd4149dd84c398c571b1b2eab237a0f982996a",
+    "docs/product.json": "c840d61ed18cb835fe4056fbd28242ea1eac43c4eba72c02e81d7e96fbaf486e",
+    "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
   },
+  "testVersion": "portfolio-publication-v1",
   "checks": [
     {
       "id": "STATIC",
       "status": "PASS",
-      "command": "python yard-football-publication/record_checks.py",
-      "result": "Six complete HTML translations; no scripts or handlers; CSP default-src none; local-only assets; date, IDs, banned legacy terms and Unicode checked."
+      "result": "Six complete translations per document; valid local language/page links; correct attribution and date; no scripts, inline handlers, external resources or fonts; CSP blocks scripts."
     },
     {
       "id": "LEGACY_FILES",
       "status": "PASS",
-      "baseCommit": "ef456a1b1a5cb1f627fa87156018aae06067c79f",
-      "filesCompared": 8,
-      "result": "Every pre-existing repository file matches its original bytes."
+      "count": 8,
+      "result": "All pre-existing files outside yard-football/ are byte-identical to baseline 74adc00."
+    },
+    {
+      "id": "YARD_BACKUP",
+      "status": "PASS",
+      "result": "Complete initial Yard folder is byte-identical in local backup; original commit remains in Git."
     },
     {
       "id": "RESPONSIVE_LANGUAGES",
@@ -29,65 +33,35 @@
       "evidence": "docs/verification-localization.json"
     },
     {
-      "id": "CROSS_PAGE_NAV",
+      "id": "NAV",
       "status": "PASS",
-      "languages": [
-        "en",
-        "ru",
-        "es",
-        "pt-BR",
-        "zh-Hans",
-        "hi"
-      ],
+      "cases": 6,
       "size": [
         390,
         844
       ],
-      "result": "Clicked privacy and support navigation for each language; correct language retained."
+      "result": "Privacy → support → privacy routes retain selected language for all six languages."
     },
     {
-      "id": "DEFAULT_ENGLISH",
+      "id": "DEFAULT",
       "status": "PASS",
-      "result": "No fragment and unknown fragment show only the complete English article."
+      "result": "Default support URL and unknown-fragment privacy URL show only English."
     },
     {
-      "id": "NO_JAVASCRIPT",
+      "id": "NO_JS",
       "status": "PASS",
-      "result": "Both pages contain zero scripts or event handlers; all language switching observed using CSS anchors; CSP disallows scripts. Browser-wide JS setting was not changed."
-    },
-    {
-      "id": "PAGES_SETTINGS",
-      "status": "PASS",
-      "result": "Authenticated account Vladimir761867; existing public Pages source main /; HTTPS enforced."
+      "result": "Both files have 0 scripts/handlers; actual CSS language links work; CSP default-src none. Browser-wide JavaScript setting was not changed."
     },
     {
       "id": "PUBLIC_HTTPS",
-      "status": "PASS",
-      "result": "Both document URLs and CSS returned HTTPS 200 and exact source hashes.",
-      "date": "2026-11-27T06:45:36.239785+00:00",
-      "evidence": "docs/publication-evidence.json"
+      "status": "NOT_RUN",
+      "result": "Pending publication."
     },
     {
       "id": "PUBLIC_LANGUAGES",
-      "status": "PASS",
-      "result": "Clicked all six language links on each live HTTPS document in CUA; exactly one corresponding article visible; no scripts or horizontal overflow.",
-      "date": "2026-11-27T06:46:39.843246+00:00",
-      "cases": 12,
-      "evidence": "docs/publication-evidence.json"
-    },
-    {
-      "id": "NATIVE_SPEAKER_REVIEW",
       "status": "NOT_RUN",
-      "result": "Author translations; no native-speaker certification claimed."
-    },
-    {
-      "id": "PAGES_DEPLOY",
-      "status": "PASS",
-      "date": "2026-11-27T06:46:07.458830+00:00",
-      "contentCommit": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
-      "result": "GitHub Pages built; deployment workflow success; public main / root; HTTPS enforced.",
-      "evidence": "docs/publication-evidence.json"
+      "result": "Pending publication."
     }
   ],
-  "unchangedComponents": "Game runtime, storage, payments and native binaries were not modified or retested; facts are supplied by the user. No browser PASS is reused as an iOS result."
+  "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed."
 }

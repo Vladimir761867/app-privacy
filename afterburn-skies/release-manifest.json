@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-27T07:03:17.792600+00:00",
+  "product": {
+    "name": "Afterburn Skies",
+    "bundleId": "io.github.vladimir761867.afterburnskies",
+    "gameVersion": "1.4.0 / 17",
+    "sourceRepository": "https://github.com/Vladimir761867/Afterburn-Skies",
+    "sourceCommit": "39ab56d7a0483699e6effb7548d332b0c1ad2a7e",
+    "sourceDirectory": "Afterburn-Skies",
+    "sourceFiles": [
+      "privacy.html",
+      "release-manifest.json",
+      "game/index.html",
+      "game/preferences.js",
+      "game/enhancements.js",
+      "game/store.js",
+      "docs/appstore/IAP_PRODUCTS.md",
+      "ios/project.yml"
+    ],
+    "sourceSelection": "Current canonical local 1.4.0 source identified by release-manifest.json and SHA-256. Local main 39ab56d is ahead of origin/main f18f364; remote appstore/prepare-ios f180621 is older. Dirty game source preserved and not edited.",
+    "audience": "General/adult action game; no Kids Category assertion",
+    "storage": "Device-local records, medals, campaigns, checkpoints, aircraft customization and preferences; confirmed reset preserves purchased aircraft",
+    "purchases": "Three non-consumables via StoreKit: nx, sf, duo; Android billing disabled; no real-money web charges",
+    "network": [
+      "Apple StoreKit catalogue/purchase/restore",
+      "User-initiated support email"
+    ],
+    "developers": [
+      "Vladimir Feklisov",
+      "Aleksei Feklisov"
+    ],
+    "dataController": "Vladimir Feklisov",
+    "email": "gfg-games-2026@ya.ru",
+    "languages": [
+      "en",
+      "ru",
+      "es",
+      "pt-BR",
+      "zh-Hans",
+      "hi"
+    ],
+    "effectiveDate": "2026-11-27",
+    "sourceHashes": {
+      "privacy.html": "54a9d1d0ed8ea2c4cbd459d0719c85691150ae1517235822028c709a501526df",
+      "release-manifest.json": "fbab14a4a8f9798464a7581330ae71a3d5d304786d8c1949578f2260c9681630",
+      "game/index.html": "fb7d7379d3a79b632aa45424f5e9ed3d66e592522f841107aad4e71dcd227fd3",
+      "game/preferences.js": "ffe1d9fef4fab8252f2f233f118b8f3205a64fae573c3b474f3137c311713e80",
+      "game/enhancements.js": "e6ca7fbe8a7bc9d52755412a3b31d45ce4404effcb8db5cd93fe04c5520c7364",
+      "game/store.js": "46965b0d9602b22a38c48a6762d23d8ba8b3dd5cf7007042a651d582d4632e74",
+      "docs/appstore/IAP_PRODUCTS.md": "5c714b7f42e3410ad5707008df572803444967f68cc27de841345c5cce1e2b78",
+      "ios/project.yml": "b5c9000613da63cc2609682f3ae2f4ad6189662ae1916e108b8d675f68dc1bc0"
+    }
+  },
+  "scope": "Static website only; no game binaries modified or certified",
+  "website": {
+    "repository": "https://github.com/Vladimir761867/app-privacy",
+    "baselineCommit": "74adc0074c5d7fa25caee686d6f61178878ddc1e",
+    "branch": "main",
+    "privacyURL": "https://vladimir761867.github.io/app-privacy/afterburn-skies/privacy.html",
+    "supportURL": "https://vladimir761867.github.io/app-privacy/afterburn-skies/support.html",
+    "defaultLanguage": "en",
+    "languageSelection": "CSS :target and HTML anchors; no JavaScript or storage",
+    "dependencies": [
+      "local style.css",
+      "system fonts"
+    ],
+    "tracking": false,
+    "cookies": false,
+    "scripts": [],
+    "hashes": {
+      "privacy.html": "38a54ae2769604d301854343fafb7bccacc9c5d7edfc22a3bccefe6f86639976",
+      "support.html": "57c474e8f657d93a5383423a61636764986c16d4f02240c4b84168961298730b",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "e63c952bf3376f1f643aa795388f7470a4b0abc996981df8e3bd1617a5328875",
+      "docs/product.json": "58475521f7146efff6f11325a49aa1569ed9946a8f7cb9a3bcbb6a187c5ed1b4",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "buildCommand": "python afterburn-skies/docs/generate.py"
+  },
+  "verification": {
+    "status": "LOCAL_PASS",
+    "browserCases": 60,
+    "journal": "docs/verification-journal.json",
+    "matrix": "docs/verification-localization.json",
+    "nativeSpeakerReview": "NOT_RUN"
+  },
+  "publication": "PENDING",
+  "nativeTests": "N/A — website-only task; no native PASS claimed",
+  "translationReview": "Author translations, not native-speaker certified"
+}

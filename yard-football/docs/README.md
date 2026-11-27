@@ -1,9 +1,7 @@
-# Yard Football public documents
+# Yard Football privacy and support
 
-Published privacy and support pages for Yard Football. Effective date: November 27, 2026. Developer and data controller: Aleksei Feklisov. Support: gfg-games-2026@ya.ru (confirmed by the owner).
+Developers: Vladimir Feklisov and Aleksei Feklisov. Data controller: Vladimir Feklisov. Contact: gfg-games-2026@ya.ru. Effective date: November 27, 2026.
 
-The single editable text source is `content.json`. After editing translations, run `python yard-football/docs/generate.py` from the repository root. Commit both generated HTML files with their source. `style.css` is local; system fonts are used. The pages run without JavaScript and make no analytics, font, tracking or API requests. Fragment links select the language through CSS; links between pages retain it. English is the default. No cookies or storage are used.
+Edit the single text source `content.json` and product attribution in `product.json`, then run `python yard-football/docs/generate.py` from the repository root. Both generated HTML files contain complete English, Russian, Spanish, Brazilian Portuguese, Simplified Chinese and Hindi documents. CSS fragment navigation works without JavaScript and retains language between pages. All resources are local; no analytics, cookies, forms, storage or external fonts/scripts are included.
 
-The content and structure were adapted from `football-cage` commit `d740f31e339dc5abe2e8cb1130b9d51b6869f17f`: `privacy.html`, `js/privacy.js`, `css/privacy.css`, and `docs/store/privacy-localizations.json`, then rewritten to the owner's November 27, 2026 facts. Translations are author translations; native-speaker review is not claimed.
-
-The release manifest and verification journal describe only this website. Browser checks do not certify the iOS binary, signing, StoreKit operation or App Store submission. Existing files outside `yard-football/` are preserved.
+Source selection and SHA-256 are in `release-manifest.json`. Author translations are based on the current product source; native-speaker review is not claimed. The website check journal is separate from game/native release certification. Legacy root pages are preserved. The initial Yard Football revision is retained in Git at `74adc0074c5d7fa25caee686d6f61178878ddc1e` and in the local `portfolio-publication/backups/yard-football-74adc00` backup.

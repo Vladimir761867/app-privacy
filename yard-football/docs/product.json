@@ -1,0 +1,36 @@
+{
+  "name": "Yard Football",
+  "bundleId": "feklisoff.YardFootball",
+  "gameVersion": "Website revision 2026-11-27",
+  "sourceRepository": "https://github.com/Vladimir761867/football-cage",
+  "sourceCommit": "d740f31e339dc5abe2e8cb1130b9d51b6869f17f",
+  "sourceDirectory": "Дворовый футбол",
+  "sourceFiles": [],
+  "sourceSelection": "Reuse already-published Yard Football factual text at app-privacy 74adc00. Only developer/controller attribution and support introduction changed per explicit user instruction; unchanged game facts retained.",
+  "audience": "Family/all ages; not Kids Category",
+  "storage": "Local progress/settings/language/results; reset in game settings",
+  "purchases": "Optional one-time cosmetic court packs and Court Collection via StoreKit",
+  "network": [
+    "Apple StoreKit",
+    "ECB XML exchange rates for INR/USD reference on iOS",
+    "Optional web-only room server",
+    "Web-only incompetech.com music after player action",
+    "User-initiated support email"
+  ],
+  "developers": [
+    "Vladimir Feklisov",
+    "Aleksei Feklisov"
+  ],
+  "dataController": "Vladimir Feklisov",
+  "email": "gfg-games-2026@ya.ru",
+  "languages": [
+    "en",
+    "ru",
+    "es",
+    "pt-BR",
+    "zh-Hans",
+    "hi"
+  ],
+  "effectiveDate": "2026-11-27",
+  "sourceHashes": {}
+}

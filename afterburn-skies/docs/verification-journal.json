@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-27T11:16:02.266981+00:00",
+  "artifactHashes": {
+    "privacy.html": "38a54ae2769604d301854343fafb7bccacc9c5d7edfc22a3bccefe6f86639976",
+    "support.html": "57c474e8f657d93a5383423a61636764986c16d4f02240c4b84168961298730b",
+    "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+    "docs/content.json": "e63c952bf3376f1f643aa795388f7470a4b0abc996981df8e3bd1617a5328875",
+    "docs/product.json": "58475521f7146efff6f11325a49aa1569ed9946a8f7cb9a3bcbb6a187c5ed1b4",
+    "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+  },
+  "testVersion": "portfolio-publication-v1",
+  "checks": [
+    {
+      "id": "STATIC",
+      "status": "PASS",
+      "result": "Six complete translations per document; valid local language/page links; correct attribution and date; no scripts, inline handlers, external resources or fonts; CSP blocks scripts."
+    },
+    {
+      "id": "LEGACY_FILES",
+      "status": "PASS",
+      "count": 8,
+      "result": "All pre-existing files outside yard-football/ are byte-identical to baseline 74adc00."
+    },
+    {
+      "id": "YARD_BACKUP",
+      "status": "PASS",
+      "result": "Complete initial Yard folder is byte-identical in local backup; original commit remains in Git."
+    },
+    {
+      "id": "RESPONSIVE_LANGUAGES",
+      "status": "PASS",
+      "cases": 60,
+      "evidence": "docs/verification-localization.json"
+    },
+    {
+      "id": "NAV",
+      "status": "PASS",
+      "cases": 6,
+      "size": [
+        390,
+        844
+      ],
+      "result": "Privacy → support → privacy routes retain selected language for all six languages."
+    },
+    {
+      "id": "DEFAULT",
+      "status": "PASS",
+      "result": "Default support URL and unknown-fragment privacy URL show only English."
+    },
+    {
+      "id": "NO_JS",
+      "status": "PASS",
+      "result": "Both files have 0 scripts/handlers; actual CSS language links work; CSP default-src none. Browser-wide JavaScript setting was not changed."
+    },
+    {
+      "id": "PUBLIC_HTTPS",
+      "status": "NOT_RUN",
+      "result": "Pending publication."
+    },
+    {
+      "id": "PUBLIC_LANGUAGES",
+      "status": "NOT_RUN",
+      "result": "Pending publication."
+    }
+  ],
+  "gameChanges": "No game source files or binaries changed by this task. Native operation/signing not tested or claimed."
+}

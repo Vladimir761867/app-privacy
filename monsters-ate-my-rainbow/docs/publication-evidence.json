@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-27T07:03:17.792600+00:00",
+  "status": "PENDING",
+  "reason": "New developer/controller attribution and current content require fresh browser and publication checks. Earlier Yard results retained in Git and local backup.",
+  "hashes": {
+    "privacy.html": "f1380a649e80802e32238f55c672927f6db7da019350fa3f09d6a9d0d4ae01d9",
+    "support.html": "0ee3a133e4514f6757ead59099c71ba63420f812b30627c5a136b4ae18bc8a6f",
+    "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+    "docs/content.json": "55a0130027b8c5d868a309c213c4ed5f2041f8c4a421c0155f7db9e57a793ebc",
+    "docs/product.json": "05c99a8a5a90f2625d489fc30c8bb146a9a49e3b0b7f535d50282e60c0c993f4",
+    "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+  }
+}

@@ -1,128 +1,392 @@
 {
   "en": {
-    "name": "English", "date": "Effective date: November 27, 2026", "privacy": "Privacy policy", "support": "Support", "language": "Choose language", "contact": "Contact", "developer": "Developer and data controller: Aleksei Feklisov.",
+    "name": "English",
+    "date": "Effective date: November 27, 2026",
+    "privacy": "Privacy policy",
+    "support": "Support",
+    "language": "Choose language",
+    "contact": "Contact",
+    "developersLabel": "Developers",
+    "controllerLabel": "Data controller",
+    "brand": "Yard Football",
     "intro": "Yard Football (formerly «Дворовый футбол»). iOS Bundle ID: feklisoff.YardFootball. Android package: feklisoff.yardfootball.",
     "sections": [
-      ["Accounts and data", "There are no accounts or registration. The game has no advertising, analytics, tracking or advertising identifiers. No data is transmitted to the developer."],
-      ["Data on your device", "Progress, settings, selected language and results are stored only on your device. They are deleted when you uninstall the app. You can reset progress in the game settings."],
-      ["Optional purchases on iOS", "Optional one-time cosmetic court packs and the Court Collection are available on iOS. Apple handles payments through StoreKit. The developer receives no payment or personal data; only the fact of purchase is verified on your device. To restore purchases, open Settings → Restore purchases."],
-      ["Exchange rates on iOS", "To show an approximate US dollar price when paying in Indian rupees, the iOS app requests a public XML exchange-rate file from the European Central Bank (ecb.europa.eu). No player identifiers are sent. Like any website, the ECB sees a normal network request, including your IP address."],
-      ["Android", "The Android version works offline and requests only permission to vibrate."],
-      ["Web version", "Online rooms are available only in the web version and only when a separate server is connected. That server stores team names, court names and match results. Online play is disabled in the iOS and Android apps. In the web version, music by Kevin MacLeod (incompetech.com) loads from an external website only after a player action."],
-      ["Family audience", "Yard Football is a family game for all ages and is not in the Kids Category. Children's data is not intentionally collected."],
-      ["Policy updates", "Changes to this policy are communicated by updating this page and its effective date."]
+      [
+        "Accounts and data",
+        "There are no accounts or registration. The game has no advertising, analytics, tracking or advertising identifiers. No data is transmitted to the developer."
+      ],
+      [
+        "Data on your device",
+        "Progress, settings, selected language and results are stored only on your device. They are deleted when you uninstall the app. You can reset progress in the game settings."
+      ],
+      [
+        "Optional purchases on iOS",
+        "Optional one-time cosmetic court packs and the Court Collection are available on iOS. Apple handles payments through StoreKit. The developer receives no payment or personal data; only the fact of purchase is verified on your device. To restore purchases, open Settings → Restore purchases."
+      ],
+      [
+        "Exchange rates on iOS",
+        "To show an approximate US dollar price when paying in Indian rupees, the iOS app requests a public XML exchange-rate file from the European Central Bank (ecb.europa.eu). No player identifiers are sent. Like any website, the ECB sees a normal network request, including your IP address."
+      ],
+      [
+        "Android",
+        "The Android version works offline and requests only permission to vibrate."
+      ],
+      [
+        "Web version",
+        "Online rooms are available only in the web version and only when a separate server is connected. That server stores team names, court names and match results. Online play is disabled in the iOS and Android apps. In the web version, music by Kevin MacLeod (incompetech.com) loads from an external website only after a player action."
+      ],
+      [
+        "Family audience",
+        "Yard Football is a family game for all ages and is not in the Kids Category. Children's data is not intentionally collected."
+      ],
+      [
+        "Policy updates",
+        "Changes to this policy are communicated by updating this page and its effective date."
+      ]
     ],
-    "supportIntro": "Help with Yard Football. For support, contact Aleksei Feklisov at the email address below.",
     "faq": [
-      ["How do I restore purchases?", "Open the game and go to Settings → Restore purchases."],
-      ["Where is my progress stored?", "Progress is stored only on your device. Uninstalling the app deletes it."],
-      ["How do I reset progress?", "Open the game settings and use the reset progress option."],
-      ["Can I play without an internet connection?", "Yes. The game works offline. iOS purchases and purchase restoration use Apple's StoreKit service."]
-    ]
+      [
+        "How do I restore purchases?",
+        "Open the game and go to Settings → Restore purchases."
+      ],
+      [
+        "Where is my progress stored?",
+        "Progress is stored only on your device. Uninstalling the app deletes it."
+      ],
+      [
+        "How do I reset progress?",
+        "Open the game settings and use the reset progress option."
+      ],
+      [
+        "Can I play without an internet connection?",
+        "Yes. The game works offline. iOS purchases and purchase restoration use Apple's StoreKit service."
+      ]
+    ],
+    "supportIntro": "For help, email the support address below. Include the game name, app version, device model and a description of the problem."
   },
   "ru": {
-    "name": "Русский", "date": "Дата вступления в силу: 27 ноября 2026 года", "privacy": "Политика конфиденциальности", "support": "Поддержка", "language": "Выбрать язык", "contact": "Связаться", "developer": "Разработчик и оператор данных: Aleksei Feklisov.",
+    "name": "Русский",
+    "date": "Дата вступления в силу: 27 ноября 2026 года",
+    "privacy": "Политика конфиденциальности",
+    "support": "Поддержка",
+    "language": "Выбрать язык",
+    "contact": "Связаться",
+    "developersLabel": "Разработчики",
+    "controllerLabel": "Оператор данных",
+    "brand": "Yard Football",
     "intro": "Yard Football (ранее «Дворовый футбол»). Bundle ID iOS: feklisoff.YardFootball. Пакет Android: feklisoff.yardfootball.",
     "sections": [
-      ["Аккаунты и данные", "В игре нет аккаунтов и регистрации. Нет рекламы, аналитики, трекинга и рекламных идентификаторов. Разработчику никакие данные не передаются."],
-      ["Данные на устройстве", "Прогресс, настройки, выбранный язык и результаты хранятся только на вашем устройстве. Они удаляются вместе с приложением. Сбросить прогресс можно в настройках игры."],
-      ["Необязательные покупки в iOS", "В iOS доступны необязательные разовые косметические пакеты дворов и «Коллекция дворов». Оплату обрабатывает Apple через StoreKit. Разработчик не получает платёжные и личные данные: на устройстве проверяется только факт покупки. Чтобы восстановить покупки, откройте Настройки → Восстановить покупки."],
-      ["Курсы валют в iOS", "Для показа примерной цены в долларах США при оплате в индийских рупиях iOS-приложение запрашивает общедоступный XML с курсами валют Европейского центрального банка (ecb.europa.eu). Идентификаторы игрока не передаются. ЕЦБ, как любой сайт, видит обычный сетевой запрос, включая IP-адрес."],
-      ["Android", "Android-версия работает офлайн и запрашивает только разрешение на вибрацию."],
-      ["Веб-версия", "Онлайн-комнаты доступны только в веб-версии и только при подключении отдельного сервера. На нём хранятся названия команд и дворов и результаты матчей. В приложениях для iOS и Android онлайн отключён. В веб-версии музыка Kevin MacLeod (incompetech.com) загружается с внешнего сайта только после действия игрока."],
-      ["Семейная аудитория", "Yard Football — семейная игра для всех возрастов, вне категории Kids. Данные детей намеренно не собираются."],
-      ["Изменения политики", "Об изменениях политики сообщается обновлением этой страницы и даты вступления в силу."]
+      [
+        "Аккаунты и данные",
+        "В игре нет аккаунтов и регистрации. Нет рекламы, аналитики, трекинга и рекламных идентификаторов. Разработчику никакие данные не передаются."
+      ],
+      [
+        "Данные на устройстве",
+        "Прогресс, настройки, выбранный язык и результаты хранятся только на вашем устройстве. Они удаляются вместе с приложением. Сбросить прогресс можно в настройках игры."
+      ],
+      [
+        "Необязательные покупки в iOS",
+        "В iOS доступны необязательные разовые косметические пакеты дворов и «Коллекция дворов». Оплату обрабатывает Apple через StoreKit. Разработчик не получает платёжные и личные данные: на устройстве проверяется только факт покупки. Чтобы восстановить покупки, откройте Настройки → Восстановить покупки."
+      ],
+      [
+        "Курсы валют в iOS",
+        "Для показа примерной цены в долларах США при оплате в индийских рупиях iOS-приложение запрашивает общедоступный XML с курсами валют Европейского центрального банка (ecb.europa.eu). Идентификаторы игрока не передаются. ЕЦБ, как любой сайт, видит обычный сетевой запрос, включая IP-адрес."
+      ],
+      [
+        "Android",
+        "Android-версия работает офлайн и запрашивает только разрешение на вибрацию."
+      ],
+      [
+        "Веб-версия",
+        "Онлайн-комнаты доступны только в веб-версии и только при подключении отдельного сервера. На нём хранятся названия команд и дворов и результаты матчей. В приложениях для iOS и Android онлайн отключён. В веб-версии музыка Kevin MacLeod (incompetech.com) загружается с внешнего сайта только после действия игрока."
+      ],
+      [
+        "Семейная аудитория",
+        "Yard Football — семейная игра для всех возрастов, вне категории Kids. Данные детей намеренно не собираются."
+      ],
+      [
+        "Изменения политики",
+        "Об изменениях политики сообщается обновлением этой страницы и даты вступления в силу."
+      ]
     ],
-    "supportIntro": "Помощь по Yard Football. Для связи с поддержкой напишите Aleksei Feklisov по адресу ниже.",
     "faq": [
-      ["Как восстановить покупки?", "Откройте игру и перейдите в Настройки → Восстановить покупки."],
-      ["Где хранится прогресс?", "Прогресс хранится только на вашем устройстве. При удалении приложения он теряется."],
-      ["Как сбросить прогресс?", "Откройте настройки игры и воспользуйтесь сбросом прогресса."],
-      ["Можно ли играть без интернета?", "Да. Игра работает офлайн. Покупки в iOS и их восстановление используют сервис Apple StoreKit."]
-    ]
+      [
+        "Как восстановить покупки?",
+        "Откройте игру и перейдите в Настройки → Восстановить покупки."
+      ],
+      [
+        "Где хранится прогресс?",
+        "Прогресс хранится только на вашем устройстве. При удалении приложения он теряется."
+      ],
+      [
+        "Как сбросить прогресс?",
+        "Откройте настройки игры и воспользуйтесь сбросом прогресса."
+      ],
+      [
+        "Можно ли играть без интернета?",
+        "Да. Игра работает офлайн. Покупки в iOS и их восстановление используют сервис Apple StoreKit."
+      ]
+    ],
+    "supportIntro": "Для помощи напишите на адрес поддержки ниже. Укажите название игры, версию приложения, модель устройства и описание проблемы."
   },
   "es": {
-    "name": "Español", "date": "Fecha de entrada en vigor: 27 de noviembre de 2026", "privacy": "Política de privacidad", "support": "Soporte", "language": "Elegir idioma", "contact": "Contacto", "developer": "Desarrollador y responsable del tratamiento de datos: Aleksei Feklisov.",
+    "name": "Español",
+    "date": "Fecha de entrada en vigor: 27 de noviembre de 2026",
+    "privacy": "Política de privacidad",
+    "support": "Soporte",
+    "language": "Elegir idioma",
+    "contact": "Contacto",
+    "developersLabel": "Desarrolladores",
+    "controllerLabel": "Responsable del tratamiento de datos",
+    "brand": "Yard Football",
     "intro": "Yard Football (antes «Дворовый футбол»). Bundle ID de iOS: feklisoff.YardFootball. Paquete de Android: feklisoff.yardfootball.",
     "sections": [
-      ["Cuentas y datos", "No hay cuentas ni registro. El juego no incluye publicidad, analítica, seguimiento ni identificadores publicitarios. No se transmite ningún dato al desarrollador."],
-      ["Datos en tu dispositivo", "El progreso, los ajustes, el idioma elegido y los resultados se guardan únicamente en tu dispositivo. Se eliminan al desinstalar la aplicación. Puedes restablecer el progreso en los ajustes del juego."],
-      ["Compras opcionales en iOS", "En iOS hay paquetes cosméticos opcionales de canchas y una Colección de canchas, mediante compras de pago único. Apple procesa los pagos a través de StoreKit. El desarrollador no recibe datos de pago ni datos personales; en tu dispositivo solo se verifica que se haya realizado la compra. Para restaurarlas, abre Ajustes → Restaurar compras."],
-      ["Tipos de cambio en iOS", "Para mostrar un precio aproximado en dólares estadounidenses al pagar en rupias indias, la aplicación de iOS solicita un archivo XML público con los tipos de cambio del Banco Central Europeo (ecb.europa.eu). No se envían identificadores del jugador. Como cualquier sitio web, el BCE recibe una solicitud de red normal, incluida tu dirección IP."],
-      ["Android", "La versión de Android funciona sin conexión y solicita únicamente permiso para vibrar."],
-      ["Versión web", "Las salas en línea están disponibles solo en la versión web y únicamente cuando se conecta un servidor independiente. Ese servidor almacena nombres de equipos y canchas y resultados de partidos. El juego en línea está desactivado en las aplicaciones de iOS y Android. En la versión web, la música de Kevin MacLeod (incompetech.com) se carga desde un sitio externo solo después de una acción del jugador."],
-      ["Público familiar", "Yard Football es un juego familiar para todas las edades y no pertenece a la categoría Kids. No se recopilan intencionadamente datos de menores."],
-      ["Cambios en la política", "Los cambios se comunican actualizando esta página y su fecha de entrada en vigor."]
+      [
+        "Cuentas y datos",
+        "No hay cuentas ni registro. El juego no incluye publicidad, analítica, seguimiento ni identificadores publicitarios. No se transmite ningún dato al desarrollador."
+      ],
+      [
+        "Datos en tu dispositivo",
+        "El progreso, los ajustes, el idioma elegido y los resultados se guardan únicamente en tu dispositivo. Se eliminan al desinstalar la aplicación. Puedes restablecer el progreso en los ajustes del juego."
+      ],
+      [
+        "Compras opcionales en iOS",
+        "En iOS hay paquetes cosméticos opcionales de canchas y una Colección de canchas, mediante compras de pago único. Apple procesa los pagos a través de StoreKit. El desarrollador no recibe datos de pago ni datos personales; en tu dispositivo solo se verifica que se haya realizado la compra. Para restaurarlas, abre Ajustes → Restaurar compras."
+      ],
+      [
+        "Tipos de cambio en iOS",
+        "Para mostrar un precio aproximado en dólares estadounidenses al pagar en rupias indias, la aplicación de iOS solicita un archivo XML público con los tipos de cambio del Banco Central Europeo (ecb.europa.eu). No se envían identificadores del jugador. Como cualquier sitio web, el BCE recibe una solicitud de red normal, incluida tu dirección IP."
+      ],
+      [
+        "Android",
+        "La versión de Android funciona sin conexión y solicita únicamente permiso para vibrar."
+      ],
+      [
+        "Versión web",
+        "Las salas en línea están disponibles solo en la versión web y únicamente cuando se conecta un servidor independiente. Ese servidor almacena nombres de equipos y canchas y resultados de partidos. El juego en línea está desactivado en las aplicaciones de iOS y Android. En la versión web, la música de Kevin MacLeod (incompetech.com) se carga desde un sitio externo solo después de una acción del jugador."
+      ],
+      [
+        "Público familiar",
+        "Yard Football es un juego familiar para todas las edades y no pertenece a la categoría Kids. No se recopilan intencionadamente datos de menores."
+      ],
+      [
+        "Cambios en la política",
+        "Los cambios se comunican actualizando esta página y su fecha de entrada en vigor."
+      ]
     ],
-    "supportIntro": "Ayuda con Yard Football. Para obtener soporte, escribe a Aleksei Feklisov a la dirección de correo que aparece abajo.",
     "faq": [
-      ["¿Cómo restauro las compras?", "Abre el juego y ve a Ajustes → Restaurar compras."],
-      ["¿Dónde se guarda mi progreso?", "El progreso se guarda solo en tu dispositivo. Se pierde al desinstalar la aplicación."],
-      ["¿Cómo restablezco el progreso?", "Abre los ajustes del juego y usa la opción para restablecer el progreso."],
-      ["¿Puedo jugar sin internet?", "Sí. El juego funciona sin conexión. Las compras de iOS y su restauración utilizan el servicio StoreKit de Apple."]
-    ]
+      [
+        "¿Cómo restauro las compras?",
+        "Abre el juego y ve a Ajustes → Restaurar compras."
+      ],
+      [
+        "¿Dónde se guarda mi progreso?",
+        "El progreso se guarda solo en tu dispositivo. Se pierde al desinstalar la aplicación."
+      ],
+      [
+        "¿Cómo restablezco el progreso?",
+        "Abre los ajustes del juego y usa la opción para restablecer el progreso."
+      ],
+      [
+        "¿Puedo jugar sin internet?",
+        "Sí. El juego funciona sin conexión. Las compras de iOS y su restauración utilizan el servicio StoreKit de Apple."
+      ]
+    ],
+    "supportIntro": "Para obtener ayuda, escribe al correo de soporte que aparece abajo. Indica el nombre del juego, la versión de la aplicación, el modelo del dispositivo y el problema."
   },
   "pt-BR": {
-    "name": "Português (Brasil)", "date": "Data de vigência: 27 de novembro de 2026", "privacy": "Política de privacidade", "support": "Suporte", "language": "Escolher idioma", "contact": "Contato", "developer": "Desenvolvedor e controlador de dados: Aleksei Feklisov.",
+    "name": "Português (Brasil)",
+    "date": "Data de vigência: 27 de novembro de 2026",
+    "privacy": "Política de privacidade",
+    "support": "Suporte",
+    "language": "Escolher idioma",
+    "contact": "Contato",
+    "developersLabel": "Desenvolvedores",
+    "controllerLabel": "Controlador de dados",
+    "brand": "Yard Football",
     "intro": "Yard Football (anteriormente «Дворовый футбол»). Bundle ID do iOS: feklisoff.YardFootball. Pacote Android: feklisoff.yardfootball.",
     "sections": [
-      ["Contas e dados", "Não há contas nem cadastro. O jogo não tem publicidade, análises, rastreamento nem identificadores de publicidade. Nenhum dado é transmitido ao desenvolvedor."],
-      ["Dados no seu dispositivo", "O progresso, as configurações, o idioma escolhido e os resultados ficam apenas no seu dispositivo. Eles são excluídos quando você desinstala o aplicativo. Você pode redefinir o progresso nas configurações do jogo."],
-      ["Compras opcionais no iOS", "No iOS, estão disponíveis pacotes cosméticos opcionais de quadras e a Coleção de quadras, com pagamento único. A Apple processa os pagamentos pelo StoreKit. O desenvolvedor não recebe dados de pagamento nem dados pessoais; apenas a realização da compra é verificada no seu dispositivo. Para restaurar as compras, abra Configurações → Restaurar compras."],
-      ["Taxas de câmbio no iOS", "Para mostrar um preço aproximado em dólares americanos ao pagar em rúpias indianas, o aplicativo iOS solicita um arquivo XML público com taxas de câmbio do Banco Central Europeu (ecb.europa.eu). Nenhum identificador do jogador é enviado. Como qualquer site, o BCE recebe uma solicitação de rede comum, incluindo seu endereço IP."],
-      ["Android", "A versão Android funciona offline e solicita apenas permissão para vibrar."],
-      ["Versão web", "As salas online estão disponíveis apenas na versão web e somente quando um servidor separado está conectado. Esse servidor armazena nomes de equipes e quadras e resultados das partidas. O modo online está desativado nos aplicativos iOS e Android. Na versão web, a música de Kevin MacLeod (incompetech.com) é carregada de um site externo somente após uma ação do jogador."],
-      ["Público familiar", "Yard Football é um jogo para toda a família e todas as idades, fora da categoria Kids. Dados de crianças não são coletados intencionalmente."],
-      ["Alterações na política", "As alterações são comunicadas por meio da atualização desta página e da data de vigência."]
+      [
+        "Contas e dados",
+        "Não há contas nem cadastro. O jogo não tem publicidade, análises, rastreamento nem identificadores de publicidade. Nenhum dado é transmitido ao desenvolvedor."
+      ],
+      [
+        "Dados no seu dispositivo",
+        "O progresso, as configurações, o idioma escolhido e os resultados ficam apenas no seu dispositivo. Eles são excluídos quando você desinstala o aplicativo. Você pode redefinir o progresso nas configurações do jogo."
+      ],
+      [
+        "Compras opcionais no iOS",
+        "No iOS, estão disponíveis pacotes cosméticos opcionais de quadras e a Coleção de quadras, com pagamento único. A Apple processa os pagamentos pelo StoreKit. O desenvolvedor não recebe dados de pagamento nem dados pessoais; apenas a realização da compra é verificada no seu dispositivo. Para restaurar as compras, abra Configurações → Restaurar compras."
+      ],
+      [
+        "Taxas de câmbio no iOS",
+        "Para mostrar um preço aproximado em dólares americanos ao pagar em rúpias indianas, o aplicativo iOS solicita um arquivo XML público com taxas de câmbio do Banco Central Europeu (ecb.europa.eu). Nenhum identificador do jogador é enviado. Como qualquer site, o BCE recebe uma solicitação de rede comum, incluindo seu endereço IP."
+      ],
+      [
+        "Android",
+        "A versão Android funciona offline e solicita apenas permissão para vibrar."
+      ],
+      [
+        "Versão web",
+        "As salas online estão disponíveis apenas na versão web e somente quando um servidor separado está conectado. Esse servidor armazena nomes de equipes e quadras e resultados das partidas. O modo online está desativado nos aplicativos iOS e Android. Na versão web, a música de Kevin MacLeod (incompetech.com) é carregada de um site externo somente após uma ação do jogador."
+      ],
+      [
+        "Público familiar",
+        "Yard Football é um jogo para toda a família e todas as idades, fora da categoria Kids. Dados de crianças não são coletados intencionalmente."
+      ],
+      [
+        "Alterações na política",
+        "As alterações são comunicadas por meio da atualização desta página e da data de vigência."
+      ]
     ],
-    "supportIntro": "Ajuda com Yard Football. Para obter suporte, escreva para Aleksei Feklisov no endereço de e-mail abaixo.",
     "faq": [
-      ["Como restauro as compras?", "Abra o jogo e acesse Configurações → Restaurar compras."],
-      ["Onde meu progresso é salvo?", "O progresso fica apenas no seu dispositivo. Ele é perdido ao desinstalar o aplicativo."],
-      ["Como redefino o progresso?", "Abra as configurações do jogo e use a opção de redefinir o progresso."],
-      ["Posso jogar sem internet?", "Sim. O jogo funciona offline. As compras no iOS e sua restauração usam o serviço StoreKit da Apple."]
-    ]
+      [
+        "Como restauro as compras?",
+        "Abra o jogo e acesse Configurações → Restaurar compras."
+      ],
+      [
+        "Onde meu progresso é salvo?",
+        "O progresso fica apenas no seu dispositivo. Ele é perdido ao desinstalar o aplicativo."
+      ],
+      [
+        "Como redefino o progresso?",
+        "Abra as configurações do jogo e use a opção de redefinir o progresso."
+      ],
+      [
+        "Posso jogar sem internet?",
+        "Sim. O jogo funciona offline. As compras no iOS e sua restauração usam o serviço StoreKit da Apple."
+      ]
+    ],
+    "supportIntro": "Para obter ajuda, escreva para o e-mail de suporte abaixo. Informe o nome do jogo, a versão do aplicativo, o modelo do dispositivo e uma descrição do problema."
   },
   "zh-Hans": {
-    "name": "简体中文", "date": "生效日期：2026年11月27日", "privacy": "隐私政策", "support": "支持", "language": "选择语言", "contact": "联系方式", "developer": "开发者及数据控制者：Aleksei Feklisov。",
+    "name": "简体中文",
+    "date": "生效日期：2026年11月27日",
+    "privacy": "隐私政策",
+    "support": "支持",
+    "language": "选择语言",
+    "contact": "联系方式",
+    "developersLabel": "开发者",
+    "controllerLabel": "数据控制者",
+    "brand": "Yard Football",
     "intro": "Yard Football（原名《Дворовый футбол》）。iOS Bundle ID：feklisoff.YardFootball。Android 软件包名称：feklisoff.yardfootball。",
     "sections": [
-      ["账户与数据", "游戏无需账户或注册，不含广告、分析、追踪或广告标识符。不会向开发者传输任何数据。"],
-      ["设备上的数据", "进度、设置、所选语言和成绩仅保存在您的设备上。卸载应用后，这些数据会被删除。您可以在游戏设置中重置进度。"],
-      ["iOS 可选购买", "iOS 版提供可选的一次性付费球场外观包和“球场合集”。付款由 Apple 通过 StoreKit 处理。开发者不会收到付款数据或个人数据；仅在您的设备上验证购买事实。要恢复购买，请打开“设置”→“恢复购买”。"],
-      ["iOS 汇率请求", "使用印度卢比付款时，为显示近似的美元参考价格，iOS 应用会向欧洲中央银行（ecb.europa.eu）请求公开的 XML 汇率文件。不会发送玩家标识符。与任何网站一样，欧洲中央银行会收到常规网络请求，包括您的 IP 地址。"],
-      ["Android", "Android 版支持离线运行，仅请求振动权限。"],
-      ["网页版", "在线房间仅在网页版中提供，且需要连接独立服务器。该服务器存储队伍名称、球场名称和比赛结果。iOS 和 Android 应用中的在线功能已关闭。网页版中的 Kevin MacLeod 音乐（incompetech.com）仅在玩家操作后才会从外部网站加载。"],
-      ["家庭用户", "Yard Football 是适合所有年龄的家庭游戏，不属于 Kids 类别。我们不会有意收集儿童数据。"],
-      ["政策变更", "本政策的变更将通过更新此页面及其生效日期来告知用户。"]
+      [
+        "账户与数据",
+        "游戏无需账户或注册，不含广告、分析、追踪或广告标识符。不会向开发者传输任何数据。"
+      ],
+      [
+        "设备上的数据",
+        "进度、设置、所选语言和成绩仅保存在您的设备上。卸载应用后，这些数据会被删除。您可以在游戏设置中重置进度。"
+      ],
+      [
+        "iOS 可选购买",
+        "iOS 版提供可选的一次性付费球场外观包和“球场合集”。付款由 Apple 通过 StoreKit 处理。开发者不会收到付款数据或个人数据；仅在您的设备上验证购买事实。要恢复购买，请打开“设置”→“恢复购买”。"
+      ],
+      [
+        "iOS 汇率请求",
+        "使用印度卢比付款时，为显示近似的美元参考价格，iOS 应用会向欧洲中央银行（ecb.europa.eu）请求公开的 XML 汇率文件。不会发送玩家标识符。与任何网站一样，欧洲中央银行会收到常规网络请求，包括您的 IP 地址。"
+      ],
+      [
+        "Android",
+        "Android 版支持离线运行，仅请求振动权限。"
+      ],
+      [
+        "网页版",
+        "在线房间仅在网页版中提供，且需要连接独立服务器。该服务器存储队伍名称、球场名称和比赛结果。iOS 和 Android 应用中的在线功能已关闭。网页版中的 Kevin MacLeod 音乐（incompetech.com）仅在玩家操作后才会从外部网站加载。"
+      ],
+      [
+        "家庭用户",
+        "Yard Football 是适合所有年龄的家庭游戏，不属于 Kids 类别。我们不会有意收集儿童数据。"
+      ],
+      [
+        "政策变更",
+        "本政策的变更将通过更新此页面及其生效日期来告知用户。"
+      ]
     ],
-    "supportIntro": "Yard Football 帮助。如需支持，请通过下方电子邮件地址联系 Aleksei Feklisov。",
     "faq": [
-      ["如何恢复购买？", "打开游戏，进入“设置”→“恢复购买”。"],
-      ["我的进度保存在哪里？", "进度仅保存在您的设备上。卸载应用会导致进度丢失。"],
-      ["如何重置进度？", "打开游戏设置，使用重置进度选项。"],
-      ["没有网络也能玩吗？", "可以。游戏支持离线游玩。iOS 购买及恢复购买使用 Apple 的 StoreKit 服务。"]
-    ]
+      [
+        "如何恢复购买？",
+        "打开游戏，进入“设置”→“恢复购买”。"
+      ],
+      [
+        "我的进度保存在哪里？",
+        "进度仅保存在您的设备上。卸载应用会导致进度丢失。"
+      ],
+      [
+        "如何重置进度？",
+        "打开游戏设置，使用重置进度选项。"
+      ],
+      [
+        "没有网络也能玩吗？",
+        "可以。游戏支持离线游玩。iOS 购买及恢复购买使用 Apple 的 StoreKit 服务。"
+      ]
+    ],
+    "supportIntro": "如需帮助，请发送邮件至下方支持地址，并注明游戏名称、应用版本、设备型号及问题描述。"
   },
   "hi": {
-    "name": "हिन्दी", "date": "प्रभावी तिथि: 27 नवंबर 2026", "privacy": "गोपनीयता नीति", "support": "सहायता", "language": "भाषा चुनें", "contact": "संपर्क", "developer": "डेवलपर और डेटा नियंत्रक: Aleksei Feklisov।",
+    "name": "हिन्दी",
+    "date": "प्रभावी तिथि: 27 नवंबर 2026",
+    "privacy": "गोपनीयता नीति",
+    "support": "सहायता",
+    "language": "भाषा चुनें",
+    "contact": "संपर्क",
+    "developersLabel": "डेवलपर",
+    "controllerLabel": "डेटा नियंत्रक",
+    "brand": "Yard Football",
     "intro": "Yard Football (पहले «Дворовый футбол»)। iOS Bundle ID: feklisoff.YardFootball। Android पैकेज: feklisoff.yardfootball।",
     "sections": [
-      ["खाते और डेटा", "कोई खाता या पंजीकरण नहीं है। खेल में विज्ञापन, एनालिटिक्स, ट्रैकिंग या विज्ञापन पहचानकर्ता नहीं हैं। डेवलपर को कोई डेटा नहीं भेजा जाता।"],
-      ["आपके डिवाइस पर डेटा", "प्रगति, सेटिंग्स, चुनी गई भाषा और नतीजे केवल आपके डिवाइस पर सहेजे जाते हैं। ऐप अनइंस्टॉल करने पर ये मिट जाते हैं। आप खेल की सेटिंग्स में प्रगति रीसेट कर सकते हैं।"],
-      ["iOS पर वैकल्पिक खरीद", "iOS पर मैदानों की दिखावट बदलने वाले वैकल्पिक पैक और मैदान संग्रह एक बार भुगतान करके खरीदे जा सकते हैं। भुगतान Apple के StoreKit से होता है। डेवलपर को भुगतान या व्यक्तिगत डेटा नहीं मिलता; आपके डिवाइस पर केवल खरीद होने की पुष्टि की जाती है। खरीद बहाल करने के लिए सेटिंग्स → खरीद बहाल करें खोलें।"],
-      ["iOS पर विनिमय दरें", "भारतीय रुपये में भुगतान करते समय अमेरिकी डॉलर में अनुमानित कीमत दिखाने के लिए iOS ऐप यूरोपीय केंद्रीय बैंक (ecb.europa.eu) की सार्वजनिक XML विनिमय-दर फ़ाइल माँगता है। खिलाड़ी के पहचानकर्ता नहीं भेजे जाते। किसी भी वेबसाइट की तरह, बैंक को सामान्य नेटवर्क अनुरोध और आपका IP पता दिखाई देता है।"],
-      ["Android", "Android संस्करण ऑफ़लाइन चलता है और केवल कंपन की अनुमति माँगता है।"],
-      ["वेब संस्करण", "ऑनलाइन रूम केवल वेब संस्करण में और अलग सर्वर जुड़ने पर ही उपलब्ध हैं। उस सर्वर पर टीमों और मैदानों के नाम और मैच के नतीजे सहेजे जाते हैं। iOS और Android ऐप में ऑनलाइन सुविधा बंद है। वेब संस्करण में Kevin MacLeod का संगीत (incompetech.com) खिलाड़ी की किसी कार्रवाई के बाद ही बाहरी वेबसाइट से लोड होता है।"],
-      ["पारिवारिक दर्शक", "Yard Football सभी उम्र के लिए एक पारिवारिक खेल है और Kids श्रेणी में नहीं है। बच्चों का डेटा जानबूझकर एकत्र नहीं किया जाता।"],
-      ["नीति में बदलाव", "बदलावों की सूचना इस पेज और इसकी प्रभावी तिथि को अपडेट करके दी जाती है।"]
+      [
+        "खाते और डेटा",
+        "कोई खाता या पंजीकरण नहीं है। खेल में विज्ञापन, एनालिटिक्स, ट्रैकिंग या विज्ञापन पहचानकर्ता नहीं हैं। डेवलपर को कोई डेटा नहीं भेजा जाता।"
+      ],
+      [
+        "आपके डिवाइस पर डेटा",
+        "प्रगति, सेटिंग्स, चुनी गई भाषा और नतीजे केवल आपके डिवाइस पर सहेजे जाते हैं। ऐप अनइंस्टॉल करने पर ये मिट जाते हैं। आप खेल की सेटिंग्स में प्रगति रीसेट कर सकते हैं।"
+      ],
+      [
+        "iOS पर वैकल्पिक खरीद",
+        "iOS पर मैदानों की दिखावट बदलने वाले वैकल्पिक पैक और मैदान संग्रह एक बार भुगतान करके खरीदे जा सकते हैं। भुगतान Apple के StoreKit से होता है। डेवलपर को भुगतान या व्यक्तिगत डेटा नहीं मिलता; आपके डिवाइस पर केवल खरीद होने की पुष्टि की जाती है। खरीद बहाल करने के लिए सेटिंग्स → खरीद बहाल करें खोलें।"
+      ],
+      [
+        "iOS पर विनिमय दरें",
+        "भारतीय रुपये में भुगतान करते समय अमेरिकी डॉलर में अनुमानित कीमत दिखाने के लिए iOS ऐप यूरोपीय केंद्रीय बैंक (ecb.europa.eu) की सार्वजनिक XML विनिमय-दर फ़ाइल माँगता है। खिलाड़ी के पहचानकर्ता नहीं भेजे जाते। किसी भी वेबसाइट की तरह, बैंक को सामान्य नेटवर्क अनुरोध और आपका IP पता दिखाई देता है।"
+      ],
+      [
+        "Android",
+        "Android संस्करण ऑफ़लाइन चलता है और केवल कंपन की अनुमति माँगता है।"
+      ],
+      [
+        "वेब संस्करण",
+        "ऑनलाइन रूम केवल वेब संस्करण में और अलग सर्वर जुड़ने पर ही उपलब्ध हैं। उस सर्वर पर टीमों और मैदानों के नाम और मैच के नतीजे सहेजे जाते हैं। iOS और Android ऐप में ऑनलाइन सुविधा बंद है। वेब संस्करण में Kevin MacLeod का संगीत (incompetech.com) खिलाड़ी की किसी कार्रवाई के बाद ही बाहरी वेबसाइट से लोड होता है।"
+      ],
+      [
+        "पारिवारिक दर्शक",
+        "Yard Football सभी उम्र के लिए एक पारिवारिक खेल है और Kids श्रेणी में नहीं है। बच्चों का डेटा जानबूझकर एकत्र नहीं किया जाता।"
+      ],
+      [
+        "नीति में बदलाव",
+        "बदलावों की सूचना इस पेज और इसकी प्रभावी तिथि को अपडेट करके दी जाती है।"
+      ]
     ],
-    "supportIntro": "Yard Football के लिए सहायता। मदद पाने के लिए नीचे दिए ईमेल पते पर Aleksei Feklisov से संपर्क करें।",
     "faq": [
-      ["खरीद कैसे बहाल करूँ?", "खेल खोलें और सेटिंग्स → खरीद बहाल करें पर जाएँ।"],
-      ["मेरी प्रगति कहाँ सहेजी जाती है?", "प्रगति केवल आपके डिवाइस पर रहती है। ऐप अनइंस्टॉल करने पर यह मिट जाती है।"],
-      ["प्रगति कैसे रीसेट करूँ?", "खेल की सेटिंग्स खोलें और प्रगति रीसेट करने का विकल्प चुनें।"],
-      ["क्या मैं बिना इंटरनेट खेल सकता हूँ?", "हाँ। खेल ऑफ़लाइन चलता है। iOS पर खरीद और खरीद बहाल करने के लिए Apple की StoreKit सेवा का उपयोग होता है।"]
-    ]
+      [
+        "खरीद कैसे बहाल करूँ?",
+        "खेल खोलें और सेटिंग्स → खरीद बहाल करें पर जाएँ।"
+      ],
+      [
+        "मेरी प्रगति कहाँ सहेजी जाती है?",
+        "प्रगति केवल आपके डिवाइस पर रहती है। ऐप अनइंस्टॉल करने पर यह मिट जाती है।"
+      ],
+      [
+        "प्रगति कैसे रीसेट करूँ?",
+        "खेल की सेटिंग्स खोलें और प्रगति रीसेट करने का विकल्प चुनें।"
+      ],
+      [
+        "क्या मैं बिना इंटरनेट खेल सकता हूँ?",
+        "हाँ। खेल ऑफ़लाइन चलता है। iOS पर खरीद और खरीद बहाल करने के लिए Apple की StoreKit सेवा का उपयोग होता है।"
+      ]
+    ],
+    "supportIntro": "मदद के लिए नीचे दिए सहायता ईमेल पते पर लिखें। खेल का नाम, ऐप संस्करण, डिवाइस मॉडल और समस्या का विवरण शामिल करें।"
   }
 }

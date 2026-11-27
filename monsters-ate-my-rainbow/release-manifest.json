@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-27T07:03:17.792600+00:00",
+  "product": {
+    "name": "Monsters Ate My Rainbow!",
+    "bundleId": "ru.pobeditel.junior",
+    "gameVersion": "1.0.1 / 2026112602",
+    "sourceRepository": "https://github.com/Vladimir761867/monsters-ate-my-rainbow",
+    "sourceCommit": "a54e746",
+    "sourceDirectory": "Приложение_игра/appstore-junior",
+    "sourceFiles": [
+      "AGENTS.md",
+      "release-manifest.json",
+      "docs/RELEASE_STATUS.md",
+      "src/brand.json",
+      "src/privacy-translations.json",
+      "src/settings.js",
+      "capacitor/capacitor.config.json"
+    ],
+    "sourceSelection": "Current clean main of separate renamed Junior repository. Editable src/brand.json and src/privacy-translations.json selected; archived Junior and adult winner-app excluded.",
+    "audience": "Children/families; Kids Category decision is not asserted",
+    "storage": "Local scores/coins/items/worlds/settings; parent-gated confirmed reset retains settings; iOS backups may restore local data",
+    "purchases": "No real-money purchases or subscriptions; earned in-game coins only",
+    "network": [
+      "User-initiated support email; offline gameplay"
+    ],
+    "developers": [
+      "Vladimir Feklisov",
+      "Aleksei Feklisov"
+    ],
+    "dataController": "Vladimir Feklisov",
+    "email": "gfg-games-2026@ya.ru",
+    "languages": [
+      "en",
+      "ru",
+      "es",
+      "pt-BR",
+      "zh-Hans",
+      "hi"
+    ],
+    "effectiveDate": "2026-11-27",
+    "sourceHashes": {
+      "AGENTS.md": "f56fcd22a119aac554fd98dc602c1be3e6aee7f095f484f80681d162b2964c1f",
+      "release-manifest.json": "6839975d056e79c6d04dc2a7f78f12f1e771110334fa2db559af05f6e13c3672",
+      "docs/RELEASE_STATUS.md": "5e3def4639ce6d77889ba378c5d2d23f5ecfecc1263dbec5378498a7beee4282",
+      "src/brand.json": "93752b5c63e663be02eb2f68f1e7c6e2b32aafc1881b3c1b1770b17d86070859",
+      "src/privacy-translations.json": "08c752fe73ded9094e494b977adf6fa6d18f53345b8b974ec8482a89b2b8a8fa",
+      "src/settings.js": "e429b8b0737e3d3bc46d2fbf781e5528ba5fad81325f8e17d8e3727c9e91e8b8",
+      "capacitor/capacitor.config.json": "d598856b7cecdc1fce2e61f606f4f05b4ab124fac9c89b6f94fbd0a606d3e0b8"
+    }
+  },
+  "scope": "Static website only; no game binaries modified or certified",
+  "website": {
+    "repository": "https://github.com/Vladimir761867/app-privacy",
+    "baselineCommit": "74adc0074c5d7fa25caee686d6f61178878ddc1e",
+    "branch": "main",
+    "privacyURL": "https://vladimir761867.github.io/app-privacy/monsters-ate-my-rainbow/privacy.html",
+    "supportURL": "https://vladimir761867.github.io/app-privacy/monsters-ate-my-rainbow/support.html",
+    "defaultLanguage": "en",
+    "languageSelection": "CSS :target and HTML anchors; no JavaScript or storage",
+    "dependencies": [
+      "local style.css",
+      "system fonts"
+    ],
+    "tracking": false,
+    "cookies": false,
+    "scripts": [],
+    "hashes": {
+      "privacy.html": "f1380a649e80802e32238f55c672927f6db7da019350fa3f09d6a9d0d4ae01d9",
+      "support.html": "0ee3a133e4514f6757ead59099c71ba63420f812b30627c5a136b4ae18bc8a6f",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "55a0130027b8c5d868a309c213c4ed5f2041f8c4a421c0155f7db9e57a793ebc",
+      "docs/product.json": "05c99a8a5a90f2625d489fc30c8bb146a9a49e3b0b7f535d50282e60c0c993f4",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "buildCommand": "python monsters-ate-my-rainbow/docs/generate.py"
+  },
+  "verification": {
+    "status": "LOCAL_PASS",
+    "browserCases": 60,
+    "journal": "docs/verification-journal.json",
+    "matrix": "docs/verification-localization.json",
+    "nativeSpeakerReview": "NOT_RUN"
+  },
+  "publication": "PENDING",
+  "nativeTests": "N/A — website-only task; no native PASS claimed",
+  "translationReview": "Author translations, not native-speaker certified"
+}

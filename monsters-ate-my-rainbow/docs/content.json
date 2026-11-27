@@ -1,0 +1,368 @@
+{
+  "en": {
+    "name": "English",
+    "date": "Effective date: November 27, 2026",
+    "privacy": "Privacy policy",
+    "support": "Support",
+    "language": "Choose language",
+    "contact": "Contact",
+    "developersLabel": "Developers",
+    "controllerLabel": "Data controller",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow! (formerly Winner Junior / «Победитель Junior»). iOS Bundle ID: ru.pobeditel.junior.",
+    "supportIntro": "Parents can contact us at the email address below. Include the app version, device model and a description of the problem. Please do not send a child's personal information.",
+    "sections": [
+      [
+        "Accounts and game data",
+        "No game account or registration is required. There are no advertisements, analytics, tracking or advertising identifiers. Game progress is not sent to the developers."
+      ],
+      [
+        "Progress and deletion",
+        "Scores, coins, items, unlocked worlds and settings stay on your device. Uninstalling removes local data, but restoring a device backup may restore it. iOS controls those backups. Reset progress in the Parents area after the arithmetic gate and a separate confirmation; settings are kept."
+      ],
+      [
+        "No real-money purchases",
+        "There are no real-money purchases or subscriptions. Coins are earned by playing and spent only inside the game. No purchase restoration is needed."
+      ],
+      [
+        "Offline play and permissions",
+        "The game works offline, with no chats, advertising or analytics services. Camera, microphone, location and contacts are not requested."
+      ],
+      [
+        "Children and parents",
+        "The game is designed for children and families. It does not intentionally collect children's personal data. The Parents area, privacy policy and progress reset are behind a parental gate."
+      ],
+      [
+        "Support for parents",
+        "If a parent chooses to email support, we receive the email address and information in that message. Do not send a child's personal information, passwords or payment details."
+      ],
+      [
+        "Policy updates",
+        "Changes to this policy are communicated by updating this page and its effective date."
+      ]
+    ],
+    "faq": [
+      [
+        "Are there paid purchases?",
+        "No. There are no real-money purchases or subscriptions. Coins are earned in gameplay; purchase restoration is not needed."
+      ],
+      [
+        "Where is progress stored?",
+        "Progress and settings stay on your device. Uninstalling removes local data; restoring a device backup may restore it. iOS controls backups."
+      ],
+      [
+        "How do I reset progress?",
+        "Open Parents, answer the arithmetic question, choose Reset progress and confirm separately. Coins, items and unlocked worlds are removed; settings are kept."
+      ],
+      [
+        "Can I play without internet?",
+        "Yes. The game works offline. You do not need an account or an internet connection to play."
+      ]
+    ]
+  },
+  "ru": {
+    "name": "Русский",
+    "date": "Дата вступления в силу: 27 ноября 2026 года",
+    "privacy": "Политика конфиденциальности",
+    "support": "Поддержка",
+    "language": "Выбрать язык",
+    "contact": "Связаться",
+    "developersLabel": "Разработчики",
+    "controllerLabel": "Оператор данных",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow! (ранее «Победитель Junior» / Winner Junior). Bundle ID iOS: ru.pobeditel.junior.",
+    "supportIntro": "Родители могут написать на адрес ниже. Укажите версию приложения, модель устройства и описание проблемы. Личные данные ребёнка присылать не нужно.",
+    "sections": [
+      [
+        "Аккаунты и игровые данные",
+        "Аккаунт и регистрация в игре не нужны. Нет рекламы, аналитики, отслеживания и рекламных идентификаторов. Игровой прогресс разработчикам не передаётся."
+      ],
+      [
+        "Прогресс и удаление",
+        "Рекорды, монеты, предметы, открытые миры и настройки хранятся на устройстве. Удаление приложения удаляет локальные данные, но восстановление резервной копии устройства может вернуть их. Копиями управляет iOS. Прогресс сбрасывается в разделе «Родителям» после примера и отдельного подтверждения; настройки сохраняются."
+      ],
+      [
+        "Без денежных покупок",
+        "В игре нет покупок за реальные деньги и подписок. Монеты зарабатываются в игре и тратятся только внутри неё. Восстанавливать покупки не требуется."
+      ],
+      [
+        "Офлайн-игра и разрешения",
+        "Игра работает офлайн, без чатов, рекламных и аналитических сервисов. Камера, микрофон, геолокация и контакты не запрашиваются."
+      ],
+      [
+        "Дети и родители",
+        "Игра рассчитана на детей и семьи. Личные данные детей намеренно не собираются. Раздел «Родителям», политика конфиденциальности и сброс прогресса закрыты родительским шлюзом."
+      ],
+      [
+        "Поддержка для родителей",
+        "Если родитель сам пишет в поддержку, мы получаем адрес электронной почты и сведения из сообщения. Не отправляйте личные данные ребёнка, пароли и платёжные сведения."
+      ],
+      [
+        "Изменения политики",
+        "Об изменениях политики сообщается обновлением этой страницы и даты вступления в силу."
+      ]
+    ],
+    "faq": [
+      [
+        "Есть ли платные покупки?",
+        "Нет. Покупок за реальные деньги и подписок нет. Монеты зарабатываются в игре; восстанавливать покупки не требуется."
+      ],
+      [
+        "Где хранится прогресс?",
+        "Прогресс и настройки хранятся на устройстве. Удаление приложения удаляет локальные данные; восстановление резервной копии устройства может вернуть их. Копиями управляет iOS."
+      ],
+      [
+        "Как сбросить прогресс?",
+        "Откройте «Родителям», решите пример, выберите «Сбросить прогресс» и отдельно подтвердите действие. Монеты, предметы и открытые миры будут удалены; настройки сохранятся."
+      ],
+      [
+        "Можно ли играть без интернета?",
+        "Да. Игра работает офлайн. Для игры не нужны аккаунт и подключение к интернету."
+      ]
+    ]
+  },
+  "es": {
+    "name": "Español",
+    "date": "Fecha de entrada en vigor: 27 de noviembre de 2026",
+    "privacy": "Política de privacidad",
+    "support": "Soporte",
+    "language": "Elegir idioma",
+    "contact": "Contacto",
+    "developersLabel": "Desarrolladores",
+    "controllerLabel": "Responsable del tratamiento de datos",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow! (antes Winner Junior / «Победитель Junior»). Bundle ID de iOS: ru.pobeditel.junior.",
+    "supportIntro": "Los padres o tutores pueden escribir al correo que aparece abajo. Indica la versión, el modelo del dispositivo y el problema. No envíes datos personales del menor.",
+    "sections": [
+      [
+        "Cuentas y datos del juego",
+        "No se necesita una cuenta ni registrarse. No hay anuncios, analítica, seguimiento ni identificadores publicitarios. El progreso no se envía a los desarrolladores."
+      ],
+      [
+        "Progreso y eliminación",
+        "Los récords, monedas, objetos, mundos desbloqueados y ajustes permanecen en tu dispositivo. Desinstalar elimina los datos locales, pero una copia de seguridad puede restaurarlos. iOS gestiona las copias. El progreso se restablece en Padres tras resolver el cálculo y confirmar por separado; se conservan los ajustes."
+      ],
+      [
+        "Sin compras con dinero real",
+        "No hay compras con dinero real ni suscripciones. Las monedas se ganan jugando y solo se gastan dentro del juego. No es necesario restaurar compras."
+      ],
+      [
+        "Juego sin conexión y permisos",
+        "El juego funciona sin conexión, sin chats, publicidad ni servicios de analítica. No se solicitan cámara, micrófono, ubicación ni contactos."
+      ],
+      [
+        "Niños y familias",
+        "El juego está diseñado para niños y familias. No recopila intencionadamente datos personales de menores. La zona Padres, la política de privacidad y el restablecimiento del progreso están protegidos por una barrera parental."
+      ],
+      [
+        "Soporte para padres",
+        "Si un padre o tutor escribe a soporte, recibimos su dirección de correo y la información del mensaje. No envíes datos personales del menor, contraseñas ni información de pago."
+      ],
+      [
+        "Cambios en la política",
+        "Los cambios se comunican actualizando esta página y su fecha de entrada en vigor."
+      ]
+    ],
+    "faq": [
+      [
+        "¿Hay compras de pago?",
+        "No. No hay compras con dinero real ni suscripciones. Las monedas se ganan jugando; no es necesario restaurar compras."
+      ],
+      [
+        "¿Dónde se guarda el progreso?",
+        "El progreso y los ajustes permanecen en tu dispositivo. Desinstalar elimina los datos locales; una copia de seguridad puede restaurarlos. iOS gestiona las copias."
+      ],
+      [
+        "¿Cómo restablezco el progreso?",
+        "Abre Padres, resuelve el cálculo, elige Restablecer progreso y confirma por separado. Se eliminan monedas, objetos y mundos desbloqueados; se conservan los ajustes."
+      ],
+      [
+        "¿Puedo jugar sin internet?",
+        "Sí. El juego funciona sin conexión. No necesitas una cuenta ni internet para jugar."
+      ]
+    ]
+  },
+  "pt-BR": {
+    "name": "Português (Brasil)",
+    "date": "Data de vigência: 27 de novembro de 2026",
+    "privacy": "Política de privacidade",
+    "support": "Suporte",
+    "language": "Escolher idioma",
+    "contact": "Contato",
+    "developersLabel": "Desenvolvedores",
+    "controllerLabel": "Controlador de dados",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow! (anteriormente Winner Junior / «Победитель Junior»). Bundle ID do iOS: ru.pobeditel.junior.",
+    "supportIntro": "Os pais ou responsáveis podem escrever para o e-mail abaixo. Informe a versão do aplicativo, o modelo do dispositivo e o problema. Não envie dados pessoais da criança.",
+    "sections": [
+      [
+        "Contas e dados do jogo",
+        "Não é necessário criar conta nem se cadastrar. Não há anúncios, análises, rastreamento nem identificadores de publicidade. O progresso não é enviado aos desenvolvedores."
+      ],
+      [
+        "Progresso e exclusão",
+        "Recordes, moedas, itens, mundos desbloqueados e configurações ficam no dispositivo. Desinstalar apaga dados locais, mas restaurar um backup pode recuperá-los. O iOS gerencia os backups. O progresso pode ser redefinido na área dos Pais após o cálculo e uma confirmação separada; as configurações são mantidas."
+      ],
+      [
+        "Sem compras com dinheiro real",
+        "Não há compras com dinheiro real nem assinaturas. As moedas são ganhas jogando e gastas apenas dentro do jogo. Não é necessário restaurar compras."
+      ],
+      [
+        "Jogo offline e permissões",
+        "O jogo funciona offline, sem chats, publicidade ou serviços de análise. Câmera, microfone, localização e contatos não são solicitados."
+      ],
+      [
+        "Crianças e famílias",
+        "O jogo foi criado para crianças e famílias. Não coleta intencionalmente dados pessoais de crianças. A área dos Pais, a política de privacidade e a redefinição do progresso são protegidas por uma barreira parental."
+      ],
+      [
+        "Suporte para os pais",
+        "Se um responsável decidir escrever ao suporte, receberemos seu endereço de e-mail e as informações da mensagem. Não envie dados pessoais da criança, senhas ou informações de pagamento."
+      ],
+      [
+        "Alterações na política",
+        "As alterações são comunicadas por meio da atualização desta página e da data de vigência."
+      ]
+    ],
+    "faq": [
+      [
+        "Há compras pagas?",
+        "Não. Não há compras com dinheiro real nem assinaturas. As moedas são ganhas jogando; não é necessário restaurar compras."
+      ],
+      [
+        "Onde o progresso é salvo?",
+        "O progresso e as configurações ficam no dispositivo. Desinstalar apaga dados locais; um backup pode recuperá-los. O iOS gerencia os backups."
+      ],
+      [
+        "Como redefino o progresso?",
+        "Abra Pais, resolva o cálculo, escolha Redefinir progresso e confirme separadamente. Moedas, itens e mundos desbloqueados serão excluídos; as configurações serão mantidas."
+      ],
+      [
+        "Posso jogar sem internet?",
+        "Sim. O jogo funciona offline. Você não precisa de conta nem internet para jogar."
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "name": "简体中文",
+    "date": "生效日期：2026年11月27日",
+    "privacy": "隐私政策",
+    "support": "支持",
+    "language": "选择语言",
+    "contact": "联系方式",
+    "developersLabel": "开发者",
+    "controllerLabel": "数据控制者",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow!（原名 Winner Junior / «Победитель Junior»）。iOS Bundle ID：ru.pobeditel.junior。",
+    "supportIntro": "家长可通过下方电子邮件联系我们，并注明应用版本、设备型号及问题描述。请勿发送儿童个人信息。",
+    "sections": [
+      [
+        "账户与游戏数据",
+        "无需游戏账户或注册。游戏不含广告、分析、追踪或广告标识符。游戏进度不会发送给开发者。"
+      ],
+      [
+        "进度与删除",
+        "纪录、金币、物品、已解锁世界和设置保存在您的设备上。卸载会删除本地数据，但恢复设备备份可能恢复这些数据。备份由 iOS 管理。家长通过算术题并单独确认后，可在“家长”区域重置进度；设置会保留。"
+      ],
+      [
+        "无真实货币购买",
+        "游戏没有真实货币购买或订阅。金币通过游玩获得，且仅在游戏内使用。无需恢复购买。"
+      ],
+      [
+        "离线游玩与权限",
+        "游戏可离线运行，不含聊天、广告或分析服务。不请求摄像头、麦克风、位置或通讯录权限。"
+      ],
+      [
+        "儿童与家长",
+        "游戏为儿童和家庭设计，不会有意收集儿童个人数据。“家长”区域、隐私政策和重置进度均受家长验证保护。"
+      ],
+      [
+        "家长支持",
+        "如果家长主动发送邮件寻求支持，我们会收到其电子邮件地址及消息中的信息。请勿发送儿童个人信息、密码或付款资料。"
+      ],
+      [
+        "政策变更",
+        "本政策的变更将通过更新此页面及其生效日期来告知用户。"
+      ]
+    ],
+    "faq": [
+      [
+        "有付费购买吗？",
+        "没有。游戏没有真实货币购买或订阅。金币通过游玩获得，无需恢复购买。"
+      ],
+      [
+        "进度保存在哪里？",
+        "进度和设置保存在您的设备上。卸载会删除本地数据，但恢复设备备份可能恢复这些数据。备份由 iOS 管理。"
+      ],
+      [
+        "如何重置进度？",
+        "打开“家长”，回答算术题，选择“重置进度”，然后单独确认。金币、物品和已解锁世界将被删除，设置会保留。"
+      ],
+      [
+        "没有网络也能玩吗？",
+        "可以。游戏支持离线游玩，无需账户或网络连接。"
+      ]
+    ]
+  },
+  "hi": {
+    "name": "हिन्दी",
+    "date": "प्रभावी तिथि: 27 नवंबर 2026",
+    "privacy": "गोपनीयता नीति",
+    "support": "सहायता",
+    "language": "भाषा चुनें",
+    "contact": "संपर्क",
+    "developersLabel": "डेवलपर",
+    "controllerLabel": "डेटा नियंत्रक",
+    "brand": "Monsters Ate My Rainbow!",
+    "intro": "Monsters Ate My Rainbow! (पहले Winner Junior / «Победитель Junior»)। iOS Bundle ID: ru.pobeditel.junior।",
+    "supportIntro": "अभिभावक नीचे दिए ईमेल पते पर संपर्क कर सकते हैं। ऐप संस्करण, डिवाइस मॉडल और समस्या का विवरण भेजें। बच्चे की निजी जानकारी न भेजें।",
+    "sections": [
+      [
+        "खाते और खेल का डेटा",
+        "खेल के लिए खाते या पंजीकरण की ज़रूरत नहीं है। कोई विज्ञापन, एनालिटिक्स, ट्रैकिंग या विज्ञापन पहचानकर्ता नहीं हैं। खेल की प्रगति डेवलपर को नहीं भेजी जाती।"
+      ],
+      [
+        "प्रगति और डेटा हटाना",
+        "रिकॉर्ड, सिक्के, वस्तुएँ, खुली दुनिया और सेटिंग्स आपके डिवाइस पर रहती हैं। ऐप हटाने से स्थानीय डेटा मिटता है, लेकिन डिवाइस का बैकअप बहाल करने पर वापस आ सकता है। बैकअप iOS सँभालता है। अभिभावक क्षेत्र में गणित का उत्तर देने और अलग से पुष्टि करने के बाद प्रगति रीसेट होती है; सेटिंग्स बनी रहती हैं।"
+      ],
+      [
+        "असली पैसे की खरीद नहीं",
+        "असली पैसे की खरीद या सदस्यता नहीं है। सिक्के खेलकर मिलते हैं और केवल खेल के भीतर खर्च होते हैं। खरीद बहाल करने की ज़रूरत नहीं है।"
+      ],
+      [
+        "ऑफ़लाइन खेल और अनुमतियाँ",
+        "खेल ऑफ़लाइन चलता है। चैट, विज्ञापन या विश्लेषण सेवाएँ नहीं हैं। कैमरा, माइक्रोफ़ोन, स्थान या संपर्कों की अनुमति नहीं माँगी जाती।"
+      ],
+      [
+        "बच्चे और अभिभावक",
+        "यह खेल बच्चों और परिवारों के लिए बनाया गया है। बच्चों का व्यक्तिगत डेटा जानबूझकर एकत्र नहीं किया जाता। अभिभावक क्षेत्र, गोपनीयता नीति और प्रगति रीसेट अभिभावक जाँच के पीछे हैं।"
+      ],
+      [
+        "अभिभावकों के लिए सहायता",
+        "यदि अभिभावक स्वयं सहायता के लिए ईमेल भेजते हैं, तो हमें उनका ईमेल पता और संदेश की जानकारी मिलती है। बच्चे की निजी जानकारी, पासवर्ड या भुगतान का विवरण न भेजें।"
+      ],
+      [
+        "नीति में बदलाव",
+        "बदलावों की सूचना इस पेज और इसकी प्रभावी तिथि को अपडेट करके दी जाती है।"
+      ]
+    ],
+    "faq": [
+      [
+        "क्या पैसे देकर खरीद करनी होती है?",
+        "नहीं। असली पैसे की खरीद या सदस्यता नहीं है। सिक्के खेलकर मिलते हैं; खरीद बहाल करने की ज़रूरत नहीं है।"
+      ],
+      [
+        "प्रगति कहाँ सहेजी जाती है?",
+        "प्रगति और सेटिंग्स आपके डिवाइस पर रहती हैं। ऐप हटाने से स्थानीय डेटा मिटता है; डिवाइस का बैकअप बहाल करने पर वापस आ सकता है। बैकअप iOS सँभालता है।"
+      ],
+      [
+        "प्रगति कैसे रीसेट करूँ?",
+        "अभिभावक क्षेत्र खोलें, गणित का उत्तर दें, प्रगति रीसेट करें चुनें और अलग से पुष्टि करें। सिक्के, वस्तुएँ और खुली दुनिया हट जाएँगी; सेटिंग्स बनी रहेंगी।"
+      ],
+      [
+        "क्या मैं बिना इंटरनेट खेल सकता हूँ?",
+        "हाँ। खेल ऑफ़लाइन चलता है। खेलने के लिए खाता या इंटरनेट नहीं चाहिए।"
+      ]
+    ]
+  }
+}

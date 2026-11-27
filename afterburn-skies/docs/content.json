@@ -1,0 +1,368 @@
+{
+  "en": {
+    "name": "English",
+    "date": "Effective date: November 27, 2026",
+    "privacy": "Privacy policy",
+    "support": "Support",
+    "language": "Choose language",
+    "contact": "Contact",
+    "developersLabel": "Developers",
+    "controllerLabel": "Data controller",
+    "brand": "Afterburn Skies",
+    "intro": "Afterburn Skies («Форсаж Небес»). iOS Bundle ID: io.github.vladimir761867.afterburnskies.",
+    "supportIntro": "For help, email the support address below. Include the game name, app version, device model and a description of the problem.",
+    "sections": [
+      [
+        "Accounts and game data",
+        "No game account or registration is required. There are no advertisements, analytics, tracking or advertising identifiers. Game progress is not sent to the developers."
+      ],
+      [
+        "Local saves and deletion",
+        "Records, campaign progress, medals, current-flight saves, aircraft appearance and settings are stored on your device. Settings → Reset progress asks for confirmation; purchased aircraft remain available. Uninstalling removes local app data."
+      ],
+      [
+        "Optional aircraft purchases",
+        "On iOS, additional aircraft and the two-aircraft bundle are optional one-time permanent purchases. Apple processes payments through StoreKit. The developers do not receive payment card details. The app uses product prices and verified purchase rights to unlock aircraft, restore purchases and reflect refunds. Android purchases are disabled. The web version does not charge real money."
+      ],
+      [
+        "Offline play and network use",
+        "Core gameplay works offline. On iOS, the App Store handles the product catalogue, payments and purchase restoration; those services need an internet connection. The game does not send gameplay records to a developer-operated server."
+      ],
+      [
+        "Audience",
+        "Afterburn Skies is an action game for a general audience. The game does not ask players to provide personal information."
+      ],
+      [
+        "Contacting support",
+        "If you choose to email support, we receive the email address and information in your message. Do not include passwords or payment card details."
+      ],
+      [
+        "Policy updates",
+        "Changes to this policy are communicated by updating this page and its effective date."
+      ]
+    ],
+    "faq": [
+      [
+        "How do I restore purchases?",
+        "On iOS, open the aircraft purchase screen and choose Restore purchases below the offers. Use the Apple account used for the purchase and an internet connection."
+      ],
+      [
+        "Where is progress stored?",
+        "Progress and settings stay on this device; they are not stored on a developer account. Uninstalling removes local app data."
+      ],
+      [
+        "How do I reset progress?",
+        "Open Settings → Reset progress and confirm. Records, medals and the current flight are deleted. Purchased aircraft remain available."
+      ],
+      [
+        "Can I play without internet?",
+        "Yes. Core gameplay works offline. iOS purchases and purchase restoration need access to the App Store."
+      ]
+    ]
+  },
+  "ru": {
+    "name": "Русский",
+    "date": "Дата вступления в силу: 27 ноября 2026 года",
+    "privacy": "Политика конфиденциальности",
+    "support": "Поддержка",
+    "language": "Выбрать язык",
+    "contact": "Связаться",
+    "developersLabel": "Разработчики",
+    "controllerLabel": "Оператор данных",
+    "brand": "Форсаж Небес",
+    "intro": "«Форсаж Небес» (Afterburn Skies). Bundle ID iOS: io.github.vladimir761867.afterburnskies.",
+    "supportIntro": "Для помощи напишите на адрес поддержки ниже. Укажите название игры, версию приложения, модель устройства и описание проблемы.",
+    "sections": [
+      [
+        "Аккаунты и игровые данные",
+        "Аккаунт и регистрация в игре не нужны. Нет рекламы, аналитики, отслеживания и рекламных идентификаторов. Игровой прогресс разработчикам не передаётся."
+      ],
+      [
+        "Локальные сохранения и удаление",
+        "Рекорды, прогресс кампаний, медали, сохранение текущего вылета, оформление самолётов и настройки хранятся на устройстве. Настройки → Сбросить прогресс запрашивает подтверждение; купленные самолёты остаются доступны. Удаление приложения удаляет локальные данные."
+      ],
+      [
+        "Необязательные покупки самолётов",
+        "В iOS дополнительные самолёты и набор из двух самолётов доступны как необязательные разовые постоянные покупки. Apple обрабатывает оплату через StoreKit. Разработчики не получают данные банковских карт. Приложение использует цены товаров и проверенные права покупки для открытия самолётов, восстановления и учёта возвратов. Покупки в Android отключены. Веб-версия не списывает реальные деньги."
+      ],
+      [
+        "Офлайн-игра и сеть",
+        "Основная игра работает офлайн. В iOS каталог товаров, оплату и восстановление покупок обрабатывает App Store; для этих сервисов нужен интернет. Игра не отправляет игровые записи на сервер разработчиков."
+      ],
+      [
+        "Аудитория",
+        "«Форсаж Небес» — игра в жанре экшен для общей аудитории. Игра не просит игроков предоставлять личную информацию."
+      ],
+      [
+        "Обращения в поддержку",
+        "Если вы сами пишете в поддержку, мы получаем адрес электронной почты и сведения из вашего сообщения. Не отправляйте пароли и данные банковских карт."
+      ],
+      [
+        "Изменения политики",
+        "Об изменениях политики сообщается обновлением этой страницы и даты вступления в силу."
+      ]
+    ],
+    "faq": [
+      [
+        "Как восстановить покупки?",
+        "В iOS откройте экран покупки самолётов и нажмите «Восстановить покупки» под предложениями. Нужны интернет и учётная запись Apple, с которой совершена покупка."
+      ],
+      [
+        "Где хранится прогресс?",
+        "Прогресс и настройки хранятся на этом устройстве, без аккаунта у разработчиков. Удаление приложения удаляет локальные данные."
+      ],
+      [
+        "Как сбросить прогресс?",
+        "Откройте Настройки → Сбросить прогресс и подтвердите действие. Рекорды, медали и текущий вылет будут удалены. Купленные самолёты останутся доступны."
+      ],
+      [
+        "Можно ли играть без интернета?",
+        "Да. Основная игра работает офлайн. Покупки в iOS и их восстановление требуют доступа к App Store."
+      ]
+    ]
+  },
+  "es": {
+    "name": "Español",
+    "date": "Fecha de entrada en vigor: 27 de noviembre de 2026",
+    "privacy": "Política de privacidad",
+    "support": "Soporte",
+    "language": "Elegir idioma",
+    "contact": "Contacto",
+    "developersLabel": "Desarrolladores",
+    "controllerLabel": "Responsable del tratamiento de datos",
+    "brand": "Afterburn Skies",
+    "intro": "Afterburn Skies («Форсаж Небес»). Bundle ID de iOS: io.github.vladimir761867.afterburnskies.",
+    "supportIntro": "Para obtener ayuda, escribe al correo de soporte que aparece abajo. Indica el nombre del juego, la versión de la aplicación, el modelo del dispositivo y el problema.",
+    "sections": [
+      [
+        "Cuentas y datos del juego",
+        "No se necesita una cuenta ni registrarse. No hay anuncios, analítica, seguimiento ni identificadores publicitarios. El progreso no se envía a los desarrolladores."
+      ],
+      [
+        "Guardados locales y eliminación",
+        "Los récords, progreso de campañas, medallas, partidas de vuelo guardadas, apariencia de los aviones y ajustes se guardan en tu dispositivo. Ajustes → Restablecer progreso pide confirmación; los aviones comprados siguen disponibles. Desinstalar elimina los datos locales."
+      ],
+      [
+        "Compras opcionales de aviones",
+        "En iOS, los aviones adicionales y el paquete de dos aviones son compras opcionales de pago único y acceso permanente. Apple procesa los pagos mediante StoreKit. Los desarrolladores no reciben datos de tarjetas. La aplicación usa precios y derechos de compra verificados para desbloquear aviones, restaurar compras y reflejar reembolsos. Las compras en Android están desactivadas. La versión web no cobra dinero real."
+      ],
+      [
+        "Juego sin conexión y uso de la red",
+        "El juego principal funciona sin conexión. En iOS, la App Store gestiona el catálogo, los pagos y la restauración de compras; estos servicios necesitan internet. El juego no envía registros de las partidas a un servidor de los desarrolladores."
+      ],
+      [
+        "Público",
+        "Afterburn Skies es un juego de acción para un público general. El juego no pide información personal a los jugadores."
+      ],
+      [
+        "Contactar con soporte",
+        "Si decides escribir a soporte, recibimos tu dirección de correo y la información de tu mensaje. No incluyas contraseñas ni datos de tarjetas bancarias."
+      ],
+      [
+        "Cambios en la política",
+        "Los cambios se comunican actualizando esta página y su fecha de entrada en vigor."
+      ]
+    ],
+    "faq": [
+      [
+        "¿Cómo restauro las compras?",
+        "En iOS, abre la pantalla de compra de aviones y pulsa Restaurar compras debajo de las ofertas. Usa la cuenta de Apple con la que compraste y una conexión a internet."
+      ],
+      [
+        "¿Dónde se guarda el progreso?",
+        "El progreso y los ajustes permanecen en este dispositivo, sin una cuenta de los desarrolladores. Desinstalar elimina los datos locales de la aplicación."
+      ],
+      [
+        "¿Cómo restablezco el progreso?",
+        "Abre Ajustes → Restablecer progreso y confirma. Se eliminan récords, medallas y el vuelo actual. Los aviones comprados siguen disponibles."
+      ],
+      [
+        "¿Puedo jugar sin internet?",
+        "Sí. El juego principal funciona sin conexión. Las compras de iOS y su restauración requieren acceso a la App Store."
+      ]
+    ]
+  },
+  "pt-BR": {
+    "name": "Português (Brasil)",
+    "date": "Data de vigência: 27 de novembro de 2026",
+    "privacy": "Política de privacidade",
+    "support": "Suporte",
+    "language": "Escolher idioma",
+    "contact": "Contato",
+    "developersLabel": "Desenvolvedores",
+    "controllerLabel": "Controlador de dados",
+    "brand": "Afterburn Skies",
+    "intro": "Afterburn Skies («Форсаж Небес»). Bundle ID do iOS: io.github.vladimir761867.afterburnskies.",
+    "supportIntro": "Para obter ajuda, escreva para o e-mail de suporte abaixo. Informe o nome do jogo, a versão do aplicativo, o modelo do dispositivo e uma descrição do problema.",
+    "sections": [
+      [
+        "Contas e dados do jogo",
+        "Não é necessário criar conta nem se cadastrar. Não há anúncios, análises, rastreamento nem identificadores de publicidade. O progresso não é enviado aos desenvolvedores."
+      ],
+      [
+        "Dados locais e exclusão",
+        "Recordes, progresso das campanhas, medalhas, voos salvos, aparência dos aviões e configurações ficam no seu dispositivo. Configurações → Redefinir progresso pede confirmação; os aviões comprados continuam disponíveis. Desinstalar remove os dados locais."
+      ],
+      [
+        "Compras opcionais de aviões",
+        "No iOS, os aviões adicionais e o pacote de dois aviões são compras opcionais com pagamento único e acesso permanente. A Apple processa os pagamentos pelo StoreKit. Os desenvolvedores não recebem dados de cartões. O aplicativo usa preços e direitos de compra verificados para liberar aviões, restaurar compras e refletir reembolsos. As compras no Android estão desativadas. A versão web não cobra dinheiro real."
+      ],
+      [
+        "Jogo offline e uso da rede",
+        "O jogo principal funciona offline. No iOS, a App Store processa o catálogo, os pagamentos e a restauração de compras; esses serviços precisam de internet. O jogo não envia registros das partidas a um servidor dos desenvolvedores."
+      ],
+      [
+        "Público",
+        "Afterburn Skies é um jogo de ação para o público geral. O jogo não solicita informações pessoais dos jogadores."
+      ],
+      [
+        "Contato com o suporte",
+        "Se você decidir enviar um e-mail ao suporte, receberemos seu endereço de e-mail e as informações da mensagem. Não inclua senhas nem dados de cartões bancários."
+      ],
+      [
+        "Alterações na política",
+        "As alterações são comunicadas por meio da atualização desta página e da data de vigência."
+      ]
+    ],
+    "faq": [
+      [
+        "Como restauro as compras?",
+        "No iOS, abra a tela de compra de aviões e toque em Restaurar compras abaixo das ofertas. Use a conta Apple da compra e uma conexão com a internet."
+      ],
+      [
+        "Onde o progresso é salvo?",
+        "O progresso e as configurações ficam neste dispositivo, sem uma conta dos desenvolvedores. Desinstalar remove os dados locais do aplicativo."
+      ],
+      [
+        "Como redefino o progresso?",
+        "Abra Configurações → Redefinir progresso e confirme. Recordes, medalhas e o voo atual serão excluídos. Os aviões comprados continuam disponíveis."
+      ],
+      [
+        "Posso jogar sem internet?",
+        "Sim. O jogo principal funciona offline. As compras no iOS e sua restauração precisam de acesso à App Store."
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "name": "简体中文",
+    "date": "生效日期：2026年11月27日",
+    "privacy": "隐私政策",
+    "support": "支持",
+    "language": "选择语言",
+    "contact": "联系方式",
+    "developersLabel": "开发者",
+    "controllerLabel": "数据控制者",
+    "brand": "Afterburn Skies",
+    "intro": "Afterburn Skies（«Форсаж Небес»）。iOS Bundle ID：io.github.vladimir761867.afterburnskies。",
+    "supportIntro": "如需帮助，请发送邮件至下方支持地址，并注明游戏名称、应用版本、设备型号及问题描述。",
+    "sections": [
+      [
+        "账户与游戏数据",
+        "无需游戏账户或注册。游戏不含广告、分析、追踪或广告标识符。游戏进度不会发送给开发者。"
+      ],
+      [
+        "本地存档与删除",
+        "纪录、战役进度、奖章、当前飞行存档、飞机外观和设置保存在您的设备上。“设置”→“重置进度”需要确认；已购飞机仍可使用。卸载应用会删除本地数据。"
+      ],
+      [
+        "可选飞机购买",
+        "iOS 上的额外飞机和双飞机套装属于可选的一次性付费永久购买。付款由 Apple 通过 StoreKit 处理。开发者不会收到银行卡资料。应用使用商品价格及已验证的购买权限来解锁飞机、恢复购买并反映退款。Android 购买功能已关闭。网页版不会收取真实货币。"
+      ],
+      [
+        "离线游玩与网络使用",
+        "核心游戏支持离线游玩。在 iOS 上，商品目录、付款及恢复购买由 App Store 处理，这些服务需要网络连接。游戏不会将游戏记录发送至开发者运营的服务器。"
+      ],
+      [
+        "用户群体",
+        "Afterburn Skies 是面向一般用户的动作游戏。游戏不会要求玩家提供个人信息。"
+      ],
+      [
+        "联系支持",
+        "如果您主动发送电子邮件寻求支持，我们会收到您的电子邮件地址及消息中提供的信息。请勿提供密码或银行卡资料。"
+      ],
+      [
+        "政策变更",
+        "本政策的变更将通过更新此页面及其生效日期来告知用户。"
+      ]
+    ],
+    "faq": [
+      [
+        "如何恢复购买？",
+        "在 iOS 上，打开飞机购买页面，然后选择商品下方的“恢复购买”。需要使用购买时的 Apple 账户并连接网络。"
+      ],
+      [
+        "进度保存在哪里？",
+        "进度和设置保存在本设备上，无需开发者账户。卸载应用会删除应用的本地数据。"
+      ],
+      [
+        "如何重置进度？",
+        "打开“设置”→“重置进度”并确认。纪录、奖章和当前飞行将被删除。已购飞机仍可使用。"
+      ],
+      [
+        "没有网络也能玩吗？",
+        "可以。核心游戏支持离线游玩。iOS 购买及恢复购买需要访问 App Store。"
+      ]
+    ]
+  },
+  "hi": {
+    "name": "हिन्दी",
+    "date": "प्रभावी तिथि: 27 नवंबर 2026",
+    "privacy": "गोपनीयता नीति",
+    "support": "सहायता",
+    "language": "भाषा चुनें",
+    "contact": "संपर्क",
+    "developersLabel": "डेवलपर",
+    "controllerLabel": "डेटा नियंत्रक",
+    "brand": "Afterburn Skies",
+    "intro": "Afterburn Skies («Форсаж Небес»)। iOS Bundle ID: io.github.vladimir761867.afterburnskies।",
+    "supportIntro": "मदद के लिए नीचे दिए सहायता ईमेल पते पर लिखें। खेल का नाम, ऐप संस्करण, डिवाइस मॉडल और समस्या का विवरण शामिल करें।",
+    "sections": [
+      [
+        "खाते और खेल का डेटा",
+        "खेल के लिए खाते या पंजीकरण की ज़रूरत नहीं है। कोई विज्ञापन, एनालिटिक्स, ट्रैकिंग या विज्ञापन पहचानकर्ता नहीं हैं। खेल की प्रगति डेवलपर को नहीं भेजी जाती।"
+      ],
+      [
+        "स्थानीय सेव और हटाना",
+        "रिकॉर्ड, अभियान की प्रगति, पदक, मौजूदा उड़ान का सेव, विमानों की दिखावट और सेटिंग्स आपके डिवाइस पर सहेजे जाते हैं। सेटिंग्स → प्रगति रीसेट करें में पुष्टि माँगी जाती है; खरीदे गए विमान उपलब्ध रहते हैं। ऐप हटाने पर स्थानीय डेटा मिट जाता है।"
+      ],
+      [
+        "विमानों की वैकल्पिक खरीद",
+        "iOS पर अतिरिक्त विमान और दो विमानों का पैक वैकल्पिक हैं और एक बार भुगतान करके स्थायी रूप से खरीदे जा सकते हैं। Apple के StoreKit से भुगतान होता है। डेवलपर को बैंक कार्ड की जानकारी नहीं मिलती। विमान खोलने, खरीद बहाल करने और रिफ़ंड के अनुसार पहुँच बदलने के लिए ऐप कीमतों और सत्यापित खरीद अधिकारों का उपयोग करता है। Android पर खरीद बंद है। वेब संस्करण में असली पैसे नहीं लिए जाते।"
+      ],
+      [
+        "ऑफ़लाइन खेल और नेटवर्क",
+        "मुख्य खेल ऑफ़लाइन चलता है। iOS पर उत्पाद सूची, भुगतान और खरीद बहाली App Store संभालता है; इन सेवाओं के लिए इंटरनेट चाहिए। खेल के रिकॉर्ड डेवलपर के सर्वर पर नहीं भेजे जाते।"
+      ],
+      [
+        "दर्शक",
+        "Afterburn Skies सामान्य दर्शकों के लिए एक ऐक्शन खेल है। खेल खिलाड़ियों से व्यक्तिगत जानकारी नहीं माँगता।"
+      ],
+      [
+        "सहायता से संपर्क",
+        "यदि आप स्वयं सहायता के लिए ईमेल भेजते हैं, तो हमें आपका ईमेल पता और संदेश में दी गई जानकारी मिलती है। पासवर्ड या बैंक कार्ड की जानकारी न भेजें।"
+      ],
+      [
+        "नीति में बदलाव",
+        "बदलावों की सूचना इस पेज और इसकी प्रभावी तिथि को अपडेट करके दी जाती है।"
+      ]
+    ],
+    "faq": [
+      [
+        "खरीद कैसे बहाल करूँ?",
+        "iOS पर विमान खरीदने वाला पेज खोलें और प्रस्तावों के नीचे खरीद बहाल करें चुनें। खरीद वाले Apple खाते और इंटरनेट कनेक्शन का उपयोग करें।"
+      ],
+      [
+        "प्रगति कहाँ सहेजी जाती है?",
+        "प्रगति और सेटिंग्स इसी डिवाइस पर रहती हैं; डेवलपर का खाता नहीं होता। ऐप हटाने पर ऐप का स्थानीय डेटा मिट जाता है।"
+      ],
+      [
+        "प्रगति कैसे रीसेट करूँ?",
+        "सेटिंग्स → प्रगति रीसेट करें खोलें और पुष्टि करें। रिकॉर्ड, पदक और मौजूदा उड़ान मिट जाएगी। खरीदे गए विमान उपलब्ध रहेंगे।"
+      ],
+      [
+        "क्या मैं बिना इंटरनेट खेल सकता हूँ?",
+        "हाँ। मुख्य खेल ऑफ़लाइन चलता है। iOS पर खरीद और खरीद बहाली के लिए App Store तक पहुँच चाहिए।"
+      ]
+    ]
+  }
+}

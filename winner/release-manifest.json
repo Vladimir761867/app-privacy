@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-27T07:03:17.792600+00:00",
+  "product": {
+    "name": "Winner",
+    "bundleId": "ru.pobeditel.game",
+    "gameVersion": "1.0.3 / 4",
+    "sourceRepository": "https://github.com/Vladimir761867/winner-app",
+    "sourceCommit": "7acb5211cbb4ee62482bec7b928422537fcf1452",
+    "sourceDirectory": "winner-app-pages",
+    "sourceFiles": [
+      "privacy.html",
+      "capacitor/pobeditel/capacitor.config.json",
+      "capacitor/pobeditel/release-manifest.json",
+      "capacitor/pobeditel/www/gfg-settings.js",
+      "docs/appstore/IAP_PRODUCTS.md"
+    ],
+    "sourceSelection": "Current origin/main and canonical capacitor/pobeditel/www. Older appstore/prepare-ios 0459a2e supplies native history; no game files changed. Existing modified Junior file/workflows in winner-app-pages preserved.",
+    "audience": "General/adult version, separate from Junior",
+    "storage": "Device-local progress and preferences; confirmed reset preserves purchased content and settings",
+    "purchases": "Optional permanent content purchases via Apple StoreKit; RuStore real-money billing disabled",
+    "network": [
+      "Apple StoreKit catalogue/purchase/restore",
+      "User-initiated support email"
+    ],
+    "developers": [
+      "Vladimir Feklisov",
+      "Aleksei Feklisov"
+    ],
+    "dataController": "Vladimir Feklisov",
+    "email": "gfg-games-2026@ya.ru",
+    "languages": [
+      "en",
+      "ru",
+      "es",
+      "pt-BR",
+      "zh-Hans",
+      "hi"
+    ],
+    "effectiveDate": "2026-11-27",
+    "sourceHashes": {
+      "privacy.html": "a40d5722c3d0ed0d916e8a3b8aee601332a48217a28cc70910e1fb14a292b0e0",
+      "capacitor/pobeditel/capacitor.config.json": "81b17b1eac371d9c3c1766296106ab85288a035a9de7fccccf80756ec313845a",
+      "capacitor/pobeditel/release-manifest.json": "cf2ba761f8ce6360a2732addbafb7b2c1cbb1934413ff0598b940c8a88ccdda9",
+      "capacitor/pobeditel/www/gfg-settings.js": "fc72b6b5fae8570bc8eaa3a533ba0144dd6347b27e29749a83c83435258347a4",
+      "docs/appstore/IAP_PRODUCTS.md": "4f79dcb845eab998def6529cd979d4c8f78f63ea2552d498e46264825bb71011"
+    }
+  },
+  "scope": "Static website only; no game binaries modified or certified",
+  "website": {
+    "repository": "https://github.com/Vladimir761867/app-privacy",
+    "baselineCommit": "74adc0074c5d7fa25caee686d6f61178878ddc1e",
+    "branch": "main",
+    "privacyURL": "https://vladimir761867.github.io/app-privacy/winner/privacy.html",
+    "supportURL": "https://vladimir761867.github.io/app-privacy/winner/support.html",
+    "defaultLanguage": "en",
+    "languageSelection": "CSS :target and HTML anchors; no JavaScript or storage",
+    "dependencies": [
+      "local style.css",
+      "system fonts"
+    ],
+    "tracking": false,
+    "cookies": false,
+    "scripts": [],
+    "hashes": {
+      "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+      "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7",
+      "docs/product.json": "219b789166f2d69d05965a73a6490a76589ccf08f86c750c2707c78188ed6e97",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "buildCommand": "python winner/docs/generate.py"
+  },
+  "verification": {
+    "status": "LOCAL_PASS",
+    "browserCases": 60,
+    "journal": "docs/verification-journal.json",
+    "matrix": "docs/verification-localization.json",
+    "nativeSpeakerReview": "NOT_RUN"
+  },
+  "publication": "PENDING",
+  "nativeTests": "N/A — website-only task; no native PASS claimed",
+  "translationReview": "Author translations, not native-speaker certified"
+}

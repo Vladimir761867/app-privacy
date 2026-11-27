@@ -1,86 +1,76 @@
 {
-  "schemaVersion": 1,
-  "product": "Yard Football privacy and support website",
-  "date": "2026-11-27T06:44:40.178994+00:00",
-  "effectiveDate": "2026-11-27",
-  "scope": "Public static documents only; no game binary changes or native certification",
-  "developer": "Aleksei Feklisov",
-  "contact": "gfg-games-2026@ya.ru",
-  "bundleIdIOS": "feklisoff.YardFootball",
-  "packageAndroid": "feklisoff.yardfootball",
-  "audience": "Family game, all ages; not Kids Category",
-  "source": {
-    "repository": "https://github.com/Vladimir761867/app-privacy",
-    "branch": "main",
-    "baselineCommit": "ef456a1b1a5cb1f627fa87156018aae06067c79f",
-    "sourceHashes": {
-      "privacy.html": "63a5cccb3fe95fb1c1dcdfc4e3cac56afcaae081f46c176c10b1303f0470b20d",
-      "support.html": "90b5dd5641f8b943fe1d3aafb7a21956ca35892ef91f1d46724e077bb53c9b6b",
-      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
-      "docs/content.json": "a73370843aeb2da9ff4dc28a6f1b77749e06182e5fdd7ca5d516cfc54e3cf156",
-      "docs/generate.py": "6afa6fd6e92e99b8506bc48b529ad42c7061575b74af40743b7365f8218213a4"
-    },
-    "singleContentSource": "docs/content.json",
-    "buildCommand": "python yard-football/docs/generate.py",
-    "referenceRepository": "https://github.com/Vladimir761867/football-cage",
-    "referenceCommit": "d740f31e339dc5abe2e8cb1130b9d51b6869f17f",
-    "referenceFiles": [
-      "privacy.html",
-      "js/privacy.js",
-      "css/privacy.css",
-      "docs/store/privacy-localizations.json"
+  "schemaVersion": 2,
+  "date": "2026-11-27T07:03:17.792600+00:00",
+  "product": {
+    "name": "Yard Football",
+    "bundleId": "feklisoff.YardFootball",
+    "gameVersion": "Website revision 2026-11-27",
+    "sourceRepository": "https://github.com/Vladimir761867/football-cage",
+    "sourceCommit": "d740f31e339dc5abe2e8cb1130b9d51b6869f17f",
+    "sourceDirectory": "Дворовый футбол",
+    "sourceFiles": [],
+    "sourceSelection": "Reuse already-published Yard Football factual text at app-privacy 74adc00. Only developer/controller attribution and support introduction changed per explicit user instruction; unchanged game facts retained.",
+    "audience": "Family/all ages; not Kids Category",
+    "storage": "Local progress/settings/language/results; reset in game settings",
+    "purchases": "Optional one-time cosmetic court packs and Court Collection via StoreKit",
+    "network": [
+      "Apple StoreKit",
+      "ECB XML exchange rates for INR/USD reference on iOS",
+      "Optional web-only room server",
+      "Web-only incompetech.com music after player action",
+      "User-initiated support email"
     ],
-    "selection": "Fetched current remote branches before writing. Current football-cage main selected; appstore/prepare-ios is older (55d73a9). Existing dirty football-cage worktree preserved."
+    "developers": [
+      "Vladimir Feklisov",
+      "Aleksei Feklisov"
+    ],
+    "dataController": "Vladimir Feklisov",
+    "email": "gfg-games-2026@ya.ru",
+    "languages": [
+      "en",
+      "ru",
+      "es",
+      "pt-BR",
+      "zh-Hans",
+      "hi"
+    ],
+    "effectiveDate": "2026-11-27",
+    "sourceHashes": {}
   },
-  "languages": [
-    "en",
-    "ru",
-    "es",
-    "pt-BR",
-    "zh-Hans",
-    "hi"
-  ],
-  "defaultLanguage": "en",
-  "languageSelection": "HTML fragment anchors and CSS :target; works without JavaScript, no browser-language detection or persistent storage",
-  "devices": "Responsive web pages, portrait and landscape",
-  "websiteStorage": "none",
-  "websiteDependencies": [
-    "local style.css",
-    "system fonts"
-  ],
-  "websiteScripts": [],
-  "websiteNetwork": "Only same-origin static document and stylesheet requests; contact is a user-initiated mailto link",
-  "gameStorage": "Progress/settings/language/results on device; deletion with app; reset in game settings (user-supplied facts)",
-  "gamePurchases": "Optional one-time cosmetic court packs and Court Collection via Apple StoreKit; restore in settings",
-  "gameServices": [
-    "Apple StoreKit (iOS)",
-    "ECB public XML rates for INR/USD reference (iOS)",
-    "Optional separate online room server (web only)",
-    "incompetech.com music after player action (web only)"
-  ],
-  "hosting": {
-    "provider": "GitHub Pages",
-    "sourceBranch": "main",
-    "sourcePath": "/",
-    "httpsEnforced": true,
+  "scope": "Static website only; no game binaries modified or certified",
+  "website": {
+    "repository": "https://github.com/Vladimir761867/app-privacy",
+    "baselineCommit": "74adc0074c5d7fa25caee686d6f61178878ddc1e",
+    "branch": "main",
     "privacyURL": "https://vladimir761867.github.io/app-privacy/yard-football/privacy.html",
-    "supportURL": "https://vladimir761867.github.io/app-privacy/yard-football/support.html"
+    "supportURL": "https://vladimir761867.github.io/app-privacy/yard-football/support.html",
+    "defaultLanguage": "en",
+    "languageSelection": "CSS :target and HTML anchors; no JavaScript or storage",
+    "dependencies": [
+      "local style.css",
+      "system fonts"
+    ],
+    "tracking": false,
+    "cookies": false,
+    "scripts": [],
+    "hashes": {
+      "privacy.html": "0bce57896d8659e0cf762ef6cfba988f970a5469097eada09cbc9f1de294ae7f",
+      "support.html": "7a75d99337f0bce190ea4c2f2fcba12599a1a5eb915d673951aa2d6ddb3f6cb9",
+      "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+      "docs/content.json": "018d5919db6293c3e5a50d2c12dd4149dd84c398c571b1b2eab237a0f982996a",
+      "docs/product.json": "c840d61ed18cb835fe4056fbd28242ea1eac43c4eba72c02e81d7e96fbaf486e",
+      "docs/generate.py": "26d8e8f4a660f8a58bfa8dca92565347d537971fe38580ddef165ee633b8cf4d"
+    },
+    "buildCommand": "python yard-football/docs/generate.py"
   },
-  "checks": {
-    "localBrowserCases": 60,
-    "matrix": "docs/verification-localization.json",
+  "verification": {
+    "status": "LOCAL_PASS",
+    "browserCases": 60,
     "journal": "docs/verification-journal.json",
-    "existingFilesPreserved": true,
-    "nativeIOS": "N/A — website publication only",
-    "appStoreSubmission": "N/A — website publication only"
+    "matrix": "docs/verification-localization.json",
+    "nativeSpeakerReview": "NOT_RUN"
   },
-  "publication": {
-    "status": "PUBLISHED_VERIFIED",
-    "contentCommit": "d0383ce884727b1b556509d6e6f4d2a3c560867c",
-    "verifiedAt": "2026-11-27T06:46:39.843246+00:00",
-    "pagesBuild": "built",
-    "https": "Both document URLs and CSS return 200 and exactly match local SHA-256",
-    "liveLanguageCases": 12,
-    "evidence": "docs/publication-evidence.json"
-  }
+  "publication": "PENDING",
+  "nativeTests": "N/A — website-only task; no native PASS claimed",
+  "translationReview": "Author translations, not native-speaker certified"
 }

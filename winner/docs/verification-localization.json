@@ -1,0 +1,1356 @@
+{
+  "date": "2026-11-27T11:16:02.266981+00:00",
+  "checks": [
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        320,
+        568
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        390,
+        844
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        844,
+        390
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        768,
+        1024
+      ],
+      "orientation": "portrait",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "privacy",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "privacy.html": "444c07f2218849b14f59bd5ace0c9e41b467c69141e0fc374f1a9211306ce213",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "en",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "ru",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "es",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "pt-BR",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "zh-Hans",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    },
+    {
+      "screenId": "support",
+      "state": "selected-language",
+      "language": "hi",
+      "size": [
+        1024,
+        768
+      ],
+      "orientation": "landscape",
+      "status": "PASS",
+      "testVersion": "CUA-PORTFOLIO-v1",
+      "environment": "ChatGPT in-app browser on Windows; viewport emulation, not iOS hardware",
+      "date": "2026-11-27T11:16:02.266981+00:00",
+      "hashes": {
+        "support.html": "a67e006b6d0209510b12e8b4d8bd8905c0ec7dcd59008e97028f5be51bb4c8cb",
+        "style.css": "e09a1e7976e0b2ff8fcf1a2e0a740393c14dcfcf566a9c7517a1fb30b2568174",
+        "content.json": "3152bbe98202d83c8214b49c3dbd640d05f7646f3038fa919f00d41b679f37f7"
+      },
+      "result": "Clicked language link; exactly one matching article visible; localized heading and sections; authors present; no horizontal overflow, replacement characters, scripts or visible links smaller than 48x48 CSS px.",
+      "command": "cua_repl viewport.set; locator(.document:visible .languages a).click; read-only DOM geometry",
+      "evidence": "Codex CUA transcript; docs/verification-localization.json"
+    }
+  ],
+  "nativeSpeakerReview": "NOT_RUN — author translations, no certification claimed",
+  "allowlistedTerms": [
+    "Vladimir Feklisov",
+    "Aleksei Feklisov",
+    "Winner",
+    "ru.pobeditel.game",
+    "Победитель",
+    "Победитель Junior",
+    "Winner Junior",
+    "Форсаж Небес",
+    "Дворовый футбол",
+    "Apple",
+    "StoreKit",
+    "App Store",
+    "iOS",
+    "Android",
+    "RuStore",
+    "Kids",
+    "Kevin MacLeod",
+    "XML",
+    "IP",
+    "ecb.europa.eu",
+    "incompetech.com",
+    "gfg-games-2026@ya.ru"
+  ],
+  "visualSamplesInspected": [
+    "monsters-ate-my-rainbow/privacy/hi/320x568",
+    "afterburn-skies/support/zh-Hans/390x844",
+    "winner/privacy/ru/390x844"
+  ],
+  "visualScope": "Sample screenshots inspected, 240 total DOM cases across four games; not a screenshot claim for every case."
+}
