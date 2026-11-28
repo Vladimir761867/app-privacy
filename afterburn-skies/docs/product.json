@@ -1,21 +1,7 @@
 {
-  "name": "Afterburn Skies",
+  "name": "Forzaryon",
   "bundleId": "io.github.vladimir761867.afterburnskies",
-  "gameVersion": "1.4.0 / 17",
   "sourceRepository": "https://github.com/Vladimir761867/Afterburn-Skies",
-  "sourceCommit": "39ab56d7a0483699e6effb7548d332b0c1ad2a7e",
-  "sourceDirectory": "Afterburn-Skies",
-  "sourceFiles": [
-    "privacy.html",
-    "release-manifest.json",
-    "game/index.html",
-    "game/preferences.js",
-    "game/enhancements.js",
-    "game/store.js",
-    "docs/appstore/IAP_PRODUCTS.md",
-    "ios/project.yml"
-  ],
-  "sourceSelection": "Current canonical local 1.4.0 source identified by release-manifest.json and SHA-256. Local main 39ab56d is ahead of origin/main f18f364; remote appstore/prepare-ios f180621 is older. Dirty game source preserved and not edited.",
   "audience": "General/adult action game; no Kids Category assertion",
   "storage": "Device-local records, medals, campaigns, checkpoints, aircraft customization and preferences; confirmed reset preserves purchased aircraft",
   "purchases": "Three non-consumables via StoreKit: nx, sf, duo; Android billing disabled; no real-money web charges",
@@ -27,7 +13,10 @@
     "Vladimir Feklisov",
     "Aleksei Feklisov"
   ],
-  "dataController": "Vladimir Feklisov",
+  "dataController": [
+    "Vladimir Feklisov",
+    "Aleksei Feklisov"
+  ],
   "email": "gfgupkeep@gmail.com",
   "languages": [
     "en",
@@ -38,14 +27,8 @@
     "hi"
   ],
   "effectiveDate": "2026-11-27",
-  "sourceHashes": {
-    "privacy.html": "54a9d1d0ed8ea2c4cbd459d0719c85691150ae1517235822028c709a501526df",
-    "release-manifest.json": "fbab14a4a8f9798464a7581330ae71a3d5d304786d8c1949578f2260c9681630",
-    "game/index.html": "fb7d7379d3a79b632aa45424f5e9ed3d66e592522f841107aad4e71dcd227fd3",
-    "game/preferences.js": "ffe1d9fef4fab8252f2f233f118b8f3205a64fae573c3b474f3137c311713e80",
-    "game/enhancements.js": "e6ca7fbe8a7bc9d52755412a3b31d45ce4404effcb8db5cd93fe04c5520c7364",
-    "game/store.js": "46965b0d9602b22a38c48a6762d23d8ba8b3dd5cf7007042a651d582d4632e74",
-    "docs/appstore/IAP_PRODUCTS.md": "5c714b7f42e3410ad5707008df572803444967f68cc27de841345c5cce1e2b78",
-    "ios/project.yml": "b5c9000613da63cc2609682f3ae2f4ad6189662ae1916e108b8d675f68dc1bc0"
-  }
+  "formerNames": [
+    "Afterburn Skies",
+    "Форсаж Небес"
+  ]
 }

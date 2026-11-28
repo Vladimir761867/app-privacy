@@ -1,18 +1,7 @@
 {
   "name": "Sigh & Smash",
   "bundleId": "ru.pobeditel.game",
-  "gameVersion": "1.0.6 / 7",
   "sourceRepository": "https://github.com/Vladimir761867/winner-app",
-  "sourceCommit": "c3eb161b8f2c92dc2f0af3589cd901f3c528b1df",
-  "sourceDirectory": "winner-app-pages",
-  "sourceFiles": [
-    "privacy.html",
-    "capacitor/pobeditel/capacitor.config.json",
-    "capacitor/pobeditel/release-manifest.json",
-    "capacitor/pobeditel/www/gfg-settings.js",
-    "docs/appstore/IAP_PRODUCTS.md"
-  ],
-  "sourceSelection": "Current origin/main and canonical capacitor/pobeditel/www. Older appstore/prepare-ios 0459a2e supplies native history; no game files changed. Existing modified Junior file/workflows in winner-app-pages preserved.",
   "audience": "General/adult version, separate from Junior",
   "storage": "Device-local progress and preferences; confirmed reset preserves purchased content and settings",
   "purchases": "Optional permanent content purchases via Apple StoreKit; RuStore real-money billing disabled",
@@ -24,7 +13,10 @@
     "Vladimir Feklisov",
     "Aleksei Feklisov"
   ],
-  "dataController": "Vladimir Feklisov",
+  "dataController": [
+    "Vladimir Feklisov",
+    "Aleksei Feklisov"
+  ],
   "email": "gfgupkeep@gmail.com",
   "languages": [
     "en",
@@ -35,13 +27,6 @@
     "hi"
   ],
   "effectiveDate": "2026-11-27",
-  "sourceHashes": {
-    "privacy.html": "b4b80adbc159c3ec8094f1f9d9a9cc80586c4e0d7fde219bc94a30585b8a16da",
-    "capacitor/pobeditel/capacitor.config.json": "496cfe95f6349f8d2147246c280d30c6ba27749684a653a0128b078f85962787",
-    "capacitor/pobeditel/release-manifest.json": "eb89acdb0b6bd3f13eaabf5737bada922175a6912d68aec7948497778201a1ad",
-    "capacitor/pobeditel/www/gfg-settings.js": "4b4ffa602e2b8196d12174aec7146859612fd377a01665215086f06230ac554b",
-    "docs/appstore/IAP_PRODUCTS.md": "5989d6e730d88c70c3facc18455d70eb7a4c17cbe688e296f886137e2aa990e1"
-  },
   "previousNames": [
     "Победитель",
     "Winner"

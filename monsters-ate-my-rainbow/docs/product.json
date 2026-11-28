@@ -1,20 +1,7 @@
 {
   "name": "Monsters Ate My Rainbow!",
   "bundleId": "ru.pobeditel.junior",
-  "gameVersion": "1.0.1 / 2026112602",
   "sourceRepository": "https://github.com/Vladimir761867/monsters-ate-my-rainbow",
-  "sourceCommit": "a54e746",
-  "sourceDirectory": "Приложение_игра/appstore-junior",
-  "sourceFiles": [
-    "AGENTS.md",
-    "release-manifest.json",
-    "docs/RELEASE_STATUS.md",
-    "src/brand.json",
-    "src/privacy-translations.json",
-    "src/settings.js",
-    "capacitor/capacitor.config.json"
-  ],
-  "sourceSelection": "Current clean main of separate renamed Junior repository. Editable src/brand.json and src/privacy-translations.json selected; archived Junior and adult winner-app excluded.",
   "audience": "Children/families; Kids Category decision is not asserted",
   "storage": "Local scores/coins/items/worlds/settings; parent-gated confirmed reset retains settings; iOS backups may restore local data",
   "purchases": "No real-money purchases or subscriptions; earned in-game coins only",
@@ -25,7 +12,10 @@
     "Vladimir Feklisov",
     "Aleksei Feklisov"
   ],
-  "dataController": "Vladimir Feklisov",
+  "dataController": [
+    "Vladimir Feklisov",
+    "Aleksei Feklisov"
+  ],
   "email": "gfgupkeep@gmail.com",
   "languages": [
     "en",
@@ -35,14 +25,5 @@
     "zh-Hans",
     "hi"
   ],
-  "effectiveDate": "2026-11-27",
-  "sourceHashes": {
-    "AGENTS.md": "f56fcd22a119aac554fd98dc602c1be3e6aee7f095f484f80681d162b2964c1f",
-    "release-manifest.json": "6839975d056e79c6d04dc2a7f78f12f1e771110334fa2db559af05f6e13c3672",
-    "docs/RELEASE_STATUS.md": "5e3def4639ce6d77889ba378c5d2d23f5ecfecc1263dbec5378498a7beee4282",
-    "src/brand.json": "93752b5c63e663be02eb2f68f1e7c6e2b32aafc1881b3c1b1770b17d86070859",
-    "src/privacy-translations.json": "08c752fe73ded9094e494b977adf6fa6d18f53345b8b974ec8482a89b2b8a8fa",
-    "src/settings.js": "e429b8b0737e3d3bc46d2fbf781e5528ba5fad81325f8e17d8e3727c9e91e8b8",
-    "capacitor/capacitor.config.json": "d598856b7cecdc1fce2e61f606f4f05b4ab124fac9c89b6f94fbd0a606d3e0b8"
-  }
+  "effectiveDate": "2026-11-27"
 }

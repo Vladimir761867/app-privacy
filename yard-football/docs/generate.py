@@ -8,7 +8,8 @@ DATA = json.loads((ROOT/'docs/content.json').read_text(encoding='utf-8'))
 PRODUCT = json.loads((ROOT/'docs/product.json').read_text(encoding='utf-8'))
 EMAIL = PRODUCT['email']
 DEVELOPERS = ', '.join(PRODUCT['developers'])
-CONTROLLER = PRODUCT['dataController']
+CONTROLLERS = PRODUCT['dataController'] if isinstance(PRODUCT['dataController'], list) else [PRODUCT['dataController']]
+CONTROLLER = ', '.join(CONTROLLERS)
 assert DEVELOPERS and CONTROLLER
 
 def render(kind):
@@ -52,7 +53,7 @@ def render(kind):
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
 <title>{escape(DATA['en'][kind])} — {escape(PRODUCT['name'])}</title>
-<meta name="description" content="{escape(DATA['en'][kind])} for {escape(PRODUCT['name'])}. Developers: {escape(DEVELOPERS)}. Data controller: {escape(CONTROLLER)}. Contact: {EMAIL}.">
+<meta name="description" content="{escape(DATA['en'][kind])} for {escape(PRODUCT['name'])}. Developers: {escape(DEVELOPERS)}. Data controller{'s' if len(CONTROLLERS) > 1 else ''}: {escape(CONTROLLER)}. Contact: {EMAIL}.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body><main>

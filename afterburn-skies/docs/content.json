@@ -7,9 +7,9 @@
     "language": "Choose language",
     "contact": "Contact",
     "developersLabel": "Developers",
-    "controllerLabel": "Data controller",
-    "brand": "Afterburn Skies",
-    "intro": "Afterburn Skies («Форсаж Небес»). iOS Bundle ID: io.github.vladimir761867.afterburnskies.",
+    "controllerLabel": "Data controllers",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon (formerly Afterburn Skies, «Форсаж Небес»). iOS Bundle ID: io.github.vladimir761867.afterburnskies.",
     "supportIntro": "For help, email the support address below. Include the game name, app version, device model and a description of the problem.",
     "sections": [
       [
@@ -30,7 +30,7 @@
       ],
       [
         "Audience",
-        "Afterburn Skies is an action game for a general audience. The game does not ask players to provide personal information."
+        "Forzaryon is an action game for a general audience. The game does not ask players to provide personal information."
       ],
       [
         "Contacting support",
@@ -68,9 +68,9 @@
     "language": "Выбрать язык",
     "contact": "Связаться",
     "developersLabel": "Разработчики",
-    "controllerLabel": "Оператор данных",
-    "brand": "Форсаж Небес",
-    "intro": "«Форсаж Небес» (Afterburn Skies). Bundle ID iOS: io.github.vladimir761867.afterburnskies.",
+    "controllerLabel": "Операторы данных",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon (ранее «Форсаж Небес», Afterburn Skies). Bundle ID iOS: io.github.vladimir761867.afterburnskies.",
     "supportIntro": "Для помощи напишите на адрес поддержки ниже. Укажите название игры, версию приложения, модель устройства и описание проблемы.",
     "sections": [
       [
@@ -91,7 +91,7 @@
       ],
       [
         "Аудитория",
-        "«Форсаж Небес» — игра в жанре экшен для общей аудитории. Игра не просит игроков предоставлять личную информацию."
+        "Forzaryon — игра в жанре экшен для общей аудитории. Игра не просит игроков предоставлять личную информацию."
       ],
       [
         "Обращения в поддержку",
@@ -129,9 +129,9 @@
     "language": "Elegir idioma",
     "contact": "Contacto",
     "developersLabel": "Desarrolladores",
-    "controllerLabel": "Responsable del tratamiento de datos",
-    "brand": "Afterburn Skies",
-    "intro": "Afterburn Skies («Форсаж Небес»). Bundle ID de iOS: io.github.vladimir761867.afterburnskies.",
+    "controllerLabel": "Responsables del tratamiento de datos",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon (antes Afterburn Skies, «Форсаж Небес»). Bundle ID de iOS: io.github.vladimir761867.afterburnskies.",
     "supportIntro": "Para obtener ayuda, escribe al correo de soporte que aparece abajo. Indica el nombre del juego, la versión de la aplicación, el modelo del dispositivo y el problema.",
     "sections": [
       [
@@ -152,7 +152,7 @@
       ],
       [
         "Público",
-        "Afterburn Skies es un juego de acción para un público general. El juego no pide información personal a los jugadores."
+        "Forzaryon es un juego de acción para un público general. El juego no pide información personal a los jugadores."
       ],
       [
         "Contactar con soporte",
@@ -190,9 +190,9 @@
     "language": "Escolher idioma",
     "contact": "Contato",
     "developersLabel": "Desenvolvedores",
-    "controllerLabel": "Controlador de dados",
-    "brand": "Afterburn Skies",
-    "intro": "Afterburn Skies («Форсаж Небес»). Bundle ID do iOS: io.github.vladimir761867.afterburnskies.",
+    "controllerLabel": "Controladores de dados",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon (anteriormente Afterburn Skies, «Форсаж Небес»). Bundle ID do iOS: io.github.vladimir761867.afterburnskies.",
     "supportIntro": "Para obter ajuda, escreva para o e-mail de suporte abaixo. Informe o nome do jogo, a versão do aplicativo, o modelo do dispositivo e uma descrição do problema.",
     "sections": [
       [
@@ -213,7 +213,7 @@
       ],
       [
         "Público",
-        "Afterburn Skies é um jogo de ação para o público geral. O jogo não solicita informações pessoais dos jogadores."
+        "Forzaryon é um jogo de ação para o público geral. O jogo não solicita informações pessoais dos jogadores."
       ],
       [
         "Contato com o suporte",
@@ -252,8 +252,8 @@
     "contact": "联系方式",
     "developersLabel": "开发者",
     "controllerLabel": "数据控制者",
-    "brand": "Afterburn Skies",
-    "intro": "Afterburn Skies（«Форсаж Небес»）。iOS Bundle ID：io.github.vladimir761867.afterburnskies。",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon（原名 Afterburn Skies，«Форсаж Небес»）。iOS Bundle ID：io.github.vladimir761867.afterburnskies。",
     "supportIntro": "如需帮助，请发送邮件至下方支持地址，并注明游戏名称、应用版本、设备型号及问题描述。",
     "sections": [
       [
@@ -274,7 +274,7 @@
       ],
       [
         "用户群体",
-        "Afterburn Skies 是面向一般用户的动作游戏。游戏不会要求玩家提供个人信息。"
+        "Forzaryon 是面向一般用户的动作游戏。游戏不会要求玩家提供个人信息。"
       ],
       [
         "联系支持",
@@ -313,8 +313,8 @@
     "contact": "संपर्क",
     "developersLabel": "डेवलपर",
     "controllerLabel": "डेटा नियंत्रक",
-    "brand": "Afterburn Skies",
-    "intro": "Afterburn Skies («Форсаж Небес»)। iOS Bundle ID: io.github.vladimir761867.afterburnskies।",
+    "brand": "Forzaryon",
+    "intro": "Forzaryon (पहले Afterburn Skies, «Форсаж Небес»)। iOS Bundle ID: io.github.vladimir761867.afterburnskies।",
     "supportIntro": "मदद के लिए नीचे दिए सहायता ईमेल पते पर लिखें। खेल का नाम, ऐप संस्करण, डिवाइस मॉडल और समस्या का विवरण शामिल करें।",
     "sections": [
       [
@@ -335,7 +335,7 @@
       ],
       [
         "दर्शक",
-        "Afterburn Skies सामान्य दर्शकों के लिए एक ऐक्शन खेल है। खेल खिलाड़ियों से व्यक्तिगत जानकारी नहीं माँगता।"
+        "Forzaryon सामान्य दर्शकों के लिए एक ऐक्शन खेल है। खेल खिलाड़ियों से व्यक्तिगत जानकारी नहीं माँगता।"
       ],
       [
         "सहायता से संपर्क",
